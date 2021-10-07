@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "components": "libs/components",
     "www": {
       "root": "apps/www",
       "sourceRoot": "apps/www",
