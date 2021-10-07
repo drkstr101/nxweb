@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,11 +38,42 @@
      */
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
-      "dependencies": {},
-      "peerDependencies": {}
-    },
+      "dependencies": {
+        "@react-types/button": "3.4.1",
+        "@react-types/shared": "3.9.0"
+      },
+      "peerDependencies": {
+        "@headlessui/react": "^1.4.1",
+        "@heroicons/react": "^1.0.4",
+        "@nrwl/next": "12.9.0",
+        "@reach/skip-nav": "^0.16.0",
+        "@supabase/supabase-js": "^1.22.5",
+        "@supabase/ui": "^0.35.0",
+        "@tailwindcss/aspect-ratio": "^0.3.0",
+        "@tailwindcss/forms": "^0.3.4",
+        "@tailwindcss/line-clamp": "^0.2.2",
+        "@tailwindcss/typography": "^0.4.1",
+        "autoprefixer": "latest",
+        "postcss": "latest",
+        "react": "^17.0.2",
+        "react-datocms": "^1.6.3",
+        "react-dom": "^17.0.2",
+        "regenerator-runtime": "0.13.7",
+        "swr": "^0.3.0",
+        "tailwindcss": "latest",
+        "tslib": "^2.0.0"
+      }
+    }
+    // "packageManagerArgs": [],
+    // "devFilePatterns": ["**/*.spec.ts", "**/*.spec.tsx"],
+    // "strictPeerDependencies": true,
+    // "installFromBitDevRegistry": true,
+    // "savePrefix": ""
+    ,
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts", "**/*.spec.tsx"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -60,7 +91,9 @@
      **/
     "*": {
       "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": ["--access public"],
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
         "packageJson": {
           "name": "@watheia/{scope}.{name}",
           "homepage": "https://watheia.app",
@@ -69,7 +102,6 @@
             "node": "14.x.x"
           },
           "repository": {
-            "type": "git",
             "url": "https://bit.dev/watheia",
             "directory": "{scope}"
           },
@@ -91,13 +123,13 @@
     "{env/*}, {apps/*}": {
       "teambit.harmony/aspect": {}
     },
-    "{docs/*}": {
-      "teambit.react/react": {
-        "mdx": true
-      }
-    },
+    "{blog/*}": {},
     "{ui/*}": {
-      "teambit.react/react": {}
+      "watheia.app/envs/tailwind-react": {}
+    },
+    "{icons/*}": {
+      "teambit.react/react": "-",
+      "watheia.app/envs/tailwind-react": {}
     },
     "{theme/*}": {
       "teambit.react/react": {}
@@ -108,14 +140,17 @@
     "libs/components/src/app": {
       "defaultScope": "watheia.app"
     },
+    "libs/components/src/docs": {
+      "defaultScope": "watheia.docs",
+      "teambit.react/react": {
+        "mdx": true
+      }
+    },
+    "libs/components/src/gfx": {
+      "defaultScope": "watheia.gfx"
+    },
     "libs/components/src/content": {
       "defaultScope": "watheia.content"
-    },
-    "libs/components/src/corporate": {
-      "defaultScope": "watheia.corporate"
-    },
-    "libs/components/src/docs": {
-      "defaultScope": "watheia.docs"
     },
     "libs/components/src/iron-ui": {
       "defaultScope": "watheia.iron-ui"

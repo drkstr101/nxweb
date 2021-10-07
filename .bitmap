@@ -9,11 +9,125 @@
  */
 
 {
+    "blog/oct-2021-10-07/hello-world": {
+        "scope": "watheia.docs",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/docs/blog/oct-2021-10-07/hello-world"
+    },
+    "envs/tailwind-react": {
+        "scope": "watheia.app",
+        "version": "0.1.4",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/app/envs/tailwind-react"
+    },
+    "icons/facebook": {
+        "scope": "watheia.gfx",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/gfx/icons/facebook"
+    },
+    "theme/brand-definition": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.8",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/brand-definition"
+    },
+    "theme/color-definition": {
+        "scope": "watheia.iron-ui",
+        "version": "0.2.2",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/color-definition"
+    },
+    "theme/colors": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.10",
+        "mainFile": "colors.module.scss",
+        "rootDir": "libs/components/src/iron-ui/theme/colors"
+    },
+    "theme/fonts/book": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.10",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/fonts/book"
+    },
+    "theme/heading-margin-definition": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.8",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/heading-margin-definition"
+    },
+    "theme/shadow-definition": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.8",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/shadow-definition"
+    },
+    "theme/size-definition": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.8",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/size-definition"
+    },
+    "theme/styles/button": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.2",
+        "mainFile": "index.css",
+        "rootDir": "libs/components/src/iron-ui/theme/styles/button"
+    },
+    "theme/styles/commons": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.5",
+        "mainFile": "index.css",
+        "rootDir": "libs/components/src/iron-ui/theme/styles/commons"
+    },
+    "theme/styles/link": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.2",
+        "mainFile": "index.css",
+        "rootDir": "libs/components/src/iron-ui/theme/styles/link"
+    },
+    "theme/styles/page": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.5",
+        "mainFile": "index.css",
+        "rootDir": "libs/components/src/iron-ui/theme/styles/page"
+    },
+    "theme/styles/typography": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.5",
+        "mainFile": "index.css",
+        "rootDir": "libs/components/src/iron-ui/theme/styles/typography"
+    },
     "theme/tailwind-styles": {
         "scope": "watheia.app",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "mainFile": "index.ts",
         "rootDir": "libs/components/src/app/theme/tailwind-styles"
+    },
+    "theme/theme-provider": {
+        "scope": "watheia.iron-ui",
+        "version": "0.1.13",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/iron-ui/theme/theme-provider"
+    },
+    "ui/atoms/button": {
+        "scope": "watheia.app",
+        "version": "0.0.9",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/app/ui/atoms/button"
+    },
+    "ui/mdx-layout": {
+        "scope": "teambit.mdx",
+        "version": "0.0.446",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/mdx/ui/mdx-layout"
+    },
+    "utils/style-regexps": {
+        "scope": "watheia.app",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "libs/components/src/app/utils/style-regexps"
     },
     "$schema-version": "14.9.0"
 }

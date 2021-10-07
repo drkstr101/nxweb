@@ -1,0 +1,27 @@
+---
+labels: ["extension", "react", "env", "environment"]
+description: "A customized extension for React environment."
+---
+
+`@watheia/app.envs.tailwind-react` is a customized extension for the bit react environment, located at [React Aspect](https://bit.dev/teambit/react/react).
+
+Explain here the modified configurations and tools applied.
+
+## Basic Usage
+
+Add variant rules similar to the example in your `workspace.jsonc`...
+
+The important part is assigning a variant to the `watheia.app/envs/tailwind-react` environment as shown in the last rule.
+
+```json
+{
+  "teambit.workspace/variants": {
+    "{env/*}, {apps/*}": {
+      "teambit.harmony/aspect": {}
+    },
+    "{ui/*}": {
+      "watheia.app/envs/tailwind-react": {}
+    }
+  }
+}
+```
