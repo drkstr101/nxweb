@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -33,6 +34,7 @@ import {
   XIcon
 } from "@heroicons/react/outline"
 import { ChevronDownIcon } from "@heroicons/react/solid"
+import Link from "next/link"
 import clsx from "clsx"
 
 const solutions = [
@@ -227,14 +229,16 @@ const Header = () => (
     <Popover className="relative bg-white">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
-            <span className="sr-only">Watheia Labs</span>
-            <img
-              className="h-8 w-auto sm:h-10"
-              src="https://cdn.watheia.org/assets/icon.svg"
-              alt=""
-            />
-          </a>
+          <Link href="/">
+            <a>
+              <span className="sr-only">Watheia Labs</span>
+              <img
+                className="h-8 w-auto sm:h-10"
+                src="https://cdn.watheia.org/assets/icon.svg"
+                alt=""
+              />
+            </a>
+          </Link>
         </div>
         <div className="-mr-2 -my-2 md:hidden">
           <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-shark-400 hover:text-shark-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-aqua-500">
@@ -275,23 +279,21 @@ const Header = () => (
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                       <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
                         {solutions.map((item) => (
-                          <a
-                            key={item.name}
-                            href={item.href}
-                            className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                          >
-                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-aqua-400 to-aqua-600 text-white sm:h-12 sm:w-12">
-                              <item.icon className="h-6 w-6" aria-hidden="true" />
-                            </div>
-                            <div className="ml-4">
-                              <p className="text-base font-medium text-shark-900">
-                                {item.name}
-                              </p>
-                              <p className="mt-1 text-sm text-shark-500">
-                                {item.description}
-                              </p>
-                            </div>
-                          </a>
+                          <Link key={item.name} href={item.href}>
+                            <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-aqua-400 to-aqua-600 text-white sm:h-12 sm:w-12">
+                                <item.icon className="h-6 w-6" aria-hidden="true" />
+                              </div>
+                              <div className="ml-4">
+                                <p className="text-base font-medium text-shark-900">
+                                  {item.name}
+                                </p>
+                                <p className="mt-1 text-sm text-shark-500">
+                                  {item.description}
+                                </p>
+                              </div>
+                            </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
@@ -301,29 +303,36 @@ const Header = () => (
             )}
           </Popover>
 
-          <a href="#" className="text-base font-medium text-shark-500 hover:text-shark-900">
-            Pricing
-          </a>
-          <a href="#" className="text-base font-medium text-shark-500 hover:text-shark-900">
-            Partners
-          </a>
-          <a href="#" className="text-base font-medium text-shark-500 hover:text-shark-900">
-            Company
-          </a>
+          <Link href="/blog">
+            <a className="text-base font-medium text-shark-500 hover:text-shark-900">
+              Blog
+            </a>
+          </Link>
+          <Link href="/partners">
+            <a className="text-base font-medium text-shark-500 hover:text-shark-900">
+              Partners
+            </a>
+          </Link>
+          <Link href="/corporate">
+            <a className="text-base font-medium text-shark-500 hover:text-shark-900">
+              Corporate
+            </a>
+          </Link>
         </Popover.Group>
         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-          <a
-            href="#"
-            className="whitespace-nowrap text-base font-medium text-shark-500 hover:text-shark-900"
-          >
-            Sign in
-          </a>
-          <a
-            href="#"
-            className="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-aqua-400 to-aqua-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-aqua-900 hover:to-aqua-700"
-          >
-            Sign up
-          </a>
+          <Link href="/auth">
+            <a
+              href="/auth"
+              className="whitespace-nowrap text-base font-medium text-shark-500 hover:text-shark-900"
+            >
+              Sign in
+            </a>
+          </Link>
+          <Link href="/register">
+            <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-aqua-400 to-aqua-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-aqua-900 hover:to-aqua-700">
+              Sign up
+            </a>
+          </Link>
         </div>
       </div>
 
@@ -360,55 +369,49 @@ const Header = () => (
               <div className="mt-6">
                 <nav className="grid grid-cols-1 gap-7">
                   {solutions.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
-                    >
-                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-aqua-400 to-aqua-600 text-white">
-                        <item.icon className="h-6 w-6" aria-hidden="true" />
-                      </div>
-                      <div className="ml-4 text-base font-medium text-shark-900">
-                        {item.name}
-                      </div>
-                    </a>
+                    <Link key={item.name} href={item.href}>
+                      <a className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-aqua-400 to-aqua-600 text-white">
+                          <item.icon className="h-6 w-6" aria-hidden="true" />
+                        </div>
+                        <div className="ml-4 text-base font-medium text-shark-900">
+                          {item.name}
+                        </div>
+                      </a>
+                    </Link>
                   ))}
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a
-                  href="#"
-                  className="text-base font-medium text-shark-900 hover:text-shark-700"
-                >
-                  Pricing
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-medium text-shark-900 hover:text-shark-700"
-                >
-                  Partners
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-medium text-shark-900 hover:text-shark-700"
-                >
-                  Company
-                </a>
+                <Link href="/blog">
+                  <a className="text-base font-medium text-shark-900 hover:text-shark-700">
+                    Blog
+                  </a>
+                </Link>
+                <Link href="/partners">
+                  <a className="text-base font-medium text-shark-900 hover:text-shark-700">
+                    Partners
+                  </a>
+                </Link>
+                <Link href="/corporate">
+                  <a className="text-base font-medium text-shark-900 hover:text-shark-700">
+                    Corporate
+                  </a>
+                </Link>
               </div>
               <div className="mt-6">
-                <a
-                  href="#"
-                  className="w-full flex items-center justify-center bg-gradient-to-r from-aqua-400 to-aqua-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-aqua-900 hover:to-aqua-700"
-                >
-                  Sign up
-                </a>
+                <Link href="/register">
+                  <a className="w-full flex items-center justify-center bg-gradient-to-r from-aqua-400 to-aqua-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-aqua-900 hover:to-aqua-700">
+                    Sign up
+                  </a>
+                </Link>
                 <p className="mt-6 text-center text-base font-medium text-shark-500">
                   Existing customer?
-                  <a href="#" className="text-shark-900">
-                    Sign in
-                  </a>
+                  <Link href="/auth">
+                    <a className="text-shark-900">Sign in</a>
+                  </Link>
                 </p>
               </div>
             </div>
