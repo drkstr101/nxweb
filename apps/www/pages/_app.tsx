@@ -1,6 +1,7 @@
 import { AppProps } from "next/app"
 import Head from "next/head"
-import "./styles.css"
+
+import "@watheia/app.theme.tailwind-styles/dist/index.css"
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
