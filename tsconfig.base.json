@@ -21,15 +21,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@watheia/components": ["libs/components/src/index.ts"]:
       "@watheia/app.theme.tailwind-styles": [
         "libs/components/src/app/theme/tailwind-styles/index.ts"
       ],
-      "@watheia/gfx.icons.facebook": ["libs/components/src/gfx/icons/facebook/index.ts"],
       "@watheia/app.ui.atoms.button": ["libs/components/src/app/ui/atoms/button/index.ts"],
-      "@watheia/iron-ui.theme.theme-provider": [
-        "libs/components/src/iron-ui/theme/theme-provider/index.ts"
+      "@watheia/app.utils.style-regexps": [
+        "libs/components/src/app/utils/style-regexps/index.ts"
       ],
+      "@watheia/catalog": ["libs/catalog/src/index.ts"],
+      "@watheia/components": ["libs/components/src/index.ts"],
+      "@watheia/gfx.icons.facebook": ["libs/components/src/gfx/icons/facebook/index.ts"],
       "@watheia/iron-ui.theme.brand-definition": [
         "libs/components/src/iron-ui/theme/brand-definition/index.ts"
       ],
@@ -48,10 +49,9 @@
       "@watheia/iron-ui.theme.size-definition": [
         "libs/components/src/iron-ui/theme/size-definition/index.ts"
       ],
-      "@watheia/app.utils.style-regexps": [
-        "libs/components/src/app/utils/style-regexps/index.ts"
-      ],
-      "@watheia/catalog": ["libs/catalog/src/index.ts"]
+      "@watheia/iron-ui.theme.theme-provider": [
+        "libs/components/src/iron-ui/theme/theme-provider/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

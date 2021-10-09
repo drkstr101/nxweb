@@ -8326,8 +8326,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "button-474f26@workspace:libs/components/src/app/ui/atoms/button"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    react: ^17.0.2
   languageName: unknown
   linkType: soft
 
@@ -11682,8 +11681,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "facebook-9e6cdd@workspace:libs/components/src/gfx/icons/facebook"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    react: ^17.0.2
   languageName: unknown
   linkType: soft
 

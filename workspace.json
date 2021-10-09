@@ -1,7 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "catalog": "libs/catalog",
     "components": "libs/components",
     "www": {
       "root": "apps/www",

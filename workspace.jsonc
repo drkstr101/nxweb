@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "watheia.app"
+    "defaultScope": "watheia.layout"
   },
   /**
    * main configuration for component dependency resolution.
@@ -63,17 +63,14 @@
         "tailwindcss": "latest",
         "tslib": "^2.0.0"
       }
-    }
+    },
     // "packageManagerArgs": [],
     // "devFilePatterns": ["**/*.spec.ts", "**/*.spec.tsx"],
     // "strictPeerDependencies": true,
     // "installFromBitDevRegistry": true,
     // "savePrefix": ""
-    ,
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -91,9 +88,7 @@
      **/
     "*": {
       "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": [
-          "--access public"
-        ],
+        "packageManagerPublishArgs": ["--access public"],
         "packageJson": {
           "name": "@watheia/{scope}.{name}",
           "homepage": "https://watheia.app",
@@ -140,17 +135,21 @@
     "libs/components/src/app": {
       "defaultScope": "watheia.app"
     },
+    "libs/components/src/content": {
+      "defaultScope": "watheia.content"
+    },
     "libs/components/src/docs": {
       "defaultScope": "watheia.docs",
       "teambit.react/react": {
         "mdx": true
       }
     },
+    "libs/components/src/layout": {
+      "defaultScope": "watheia.layout",
+      "watheia.app/envs/tailwind-react": {}
+    },
     "libs/components/src/gfx": {
       "defaultScope": "watheia.gfx"
-    },
-    "libs/components/src/content": {
-      "defaultScope": "watheia.content"
     },
     "libs/components/src/iron-ui": {
       "defaultScope": "watheia.iron-ui"
