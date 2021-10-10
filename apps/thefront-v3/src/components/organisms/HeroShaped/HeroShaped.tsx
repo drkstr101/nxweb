@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Divider } from "@material-ui/core"
 import { Section } from "@watheia/front.organisms"
-import { contentWidth } from "@watheia/front.theme"
+import { contentWidth } from "@watheia/theme.theme-provider"
 
 const useStyles = makeStyles((theme) => ({
   root: {

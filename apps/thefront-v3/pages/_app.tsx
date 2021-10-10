@@ -6,10 +6,13 @@
 import React from "react"
 import Head from "next/head"
 
-import "../src/assets/css/index.css"
+import "@watheia/theme.styles.global/wa-medium.css"
+import "@watheia/theme.styles.global/wa-light.css"
+import "@watheia/theme.styles.global/index.css"
+
 import "react-lazy-load-image-component/src/effects/opacity.css"
 import "leaflet/dist/leaflet.css"
-import "swiper/css/swiper.min.css"
+import "../../../node_modules/swiper/swiper.min.css"
 import "aos/dist/aos.css"
 
 interface AppProps {

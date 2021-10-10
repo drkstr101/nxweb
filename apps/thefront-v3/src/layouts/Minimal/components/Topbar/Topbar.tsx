@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Toolbar } from "@material-ui/core"
 import { Image } from "@watheia/front.atoms"
-import { contentWidth } from "@watheia/front.theme"
+import { contentWidth } from "@watheia/theme.theme-provider"
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {

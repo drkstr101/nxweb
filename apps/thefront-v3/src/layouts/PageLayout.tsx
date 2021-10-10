@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { ThemeProvider } from "@material-ui/core/styles"
 import { Paper } from "@material-ui/core"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import getTheme from "@watheia/front.theme"
+import { getMuiTheme } from "@watheia/theme.theme-provider"
 
 import AOS from "aos"
 
@@ -63,9 +63,8 @@ export default function PageLayout({
   const [themeMode, themeToggler, mountedComponent] = useDarkMode()
 
   if (!mountedComponent) return <div />
-
   return (
-    <ThemeProvider theme={getTheme(themeMode)}>
+    <ThemeProvider theme={getMuiTheme(themeMode === "dark" ? "dark" : "light")}>
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
       <Paper elevation={0}>

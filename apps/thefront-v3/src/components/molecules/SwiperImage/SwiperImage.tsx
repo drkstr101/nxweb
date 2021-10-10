@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Swiper from "swiper"
 
 import { Image } from "@watheia/front.atoms"
+import { cardShadow } from "@watheia/theme.theme-provider"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
       background: theme.palette.primary.main,
       borderRadius: "100%",
       position: "relative",
-      boxShadow: `0 2px 10px 0 ${theme.palette.cardShadow}`,
+      boxShadow: `0 2px 10px 0 ${cardShadow}`,
       border: `2px solid ${theme.palette.background.paper}`,
       "&:after": {
         fontSize: "initial",

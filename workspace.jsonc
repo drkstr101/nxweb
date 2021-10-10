@@ -118,41 +118,23 @@
     "{env/*}, {apps/*}": {
       "teambit.harmony/aspect": {}
     },
-    "{blog/*}": {},
-    "{ui/*}": {
-      "watheia.app/envs/tailwind-react": {}
-    },
-    "{icons/*}": {
-      "teambit.react/react": "-",
-      "watheia.app/envs/tailwind-react": {}
-    },
     "{theme/*}": {
       "teambit.react/react": {}
     },
     "{utils/*}": {
       "teambit.harmony/node": {}
     },
-    "libs/components/src/app": {
-      "defaultScope": "watheia.app"
+    "libs/theme": {
+      "defaultScope": "watheia.theme"
     },
-    "libs/components/src/content": {
-      "defaultScope": "watheia.content"
+    "libs/layout": {
+      "defaultScope": "watheia.layout"
     },
-    "libs/components/src/docs": {
-      "defaultScope": "watheia.docs",
+    "libs/content": {
+      "defaultScope": "watheia.content",
       "teambit.react/react": {
         "mdx": true
       }
-    },
-    "libs/components/src/layout": {
-      "defaultScope": "watheia.layout",
-      "watheia.app/envs/tailwind-react": {}
-    },
-    "libs/components/src/gfx": {
-      "defaultScope": "watheia.gfx"
-    },
-    "libs/components/src/iron-ui": {
-      "defaultScope": "watheia.iron-ui"
     }
   }
 }
