@@ -1,0 +1,28 @@
+{
+  "root": "apps/thefront-v3-e2e",
+  "sourceRoot": "apps/thefront-v3-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/thefront-v3-e2e/cypress.json",
+        "devServerTarget": "thefront-v3:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "thefront-v3:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/thefront-v3-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["thefront-v3"]
+}

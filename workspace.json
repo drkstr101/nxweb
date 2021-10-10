@@ -2,6 +2,9 @@
   "version": 2,
   "projects": {
     "components": "libs/components",
+    "thefront-v3": "apps/thefront-v3",
+    "thefront-v3-e2e": "apps/thefront-v3-e2e",
+    "ui-layout": "libs/ui/layout",
     "www": {
       "root": "apps/www",
       "sourceRoot": "apps/www",

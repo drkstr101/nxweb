@@ -28,9 +28,6 @@
       "@watheia/app.utils.style-regexps": [
         "libs/components/src/app/utils/style-regexps/index.ts"
       ],
-      "@watheia/catalog": ["libs/catalog/src/index.ts"],
-      "@watheia/components": ["libs/components/src/index.ts"],
-      "@watheia/gfx.icons.facebook": ["libs/components/src/gfx/icons/facebook/index.ts"],
       "@watheia/iron-ui.theme.brand-definition": [
         "libs/components/src/iron-ui/theme/brand-definition/index.ts"
       ],
@@ -51,7 +48,14 @@
       ],
       "@watheia/iron-ui.theme.theme-provider": [
         "libs/components/src/iron-ui/theme/theme-provider/index.ts"
-      ]
+      ],
+      "@watheia/layout": ["libs/ui/layout/src/index.ts"],
+      "@watheia/front.atoms": ["apps/thefront-v3/src/components/atoms/index.ts"],
+      "@watheia/front.molecules": ["apps/thefront-v3/src/components/molecules/index.ts"],
+      "@watheia/front.organisms": ["apps/thefront-v3/src/components/organisms/index.ts"],
+      "@watheia/front.views.*": ["apps/thefront-v3/src/views/*/index.ts"],
+      "@watheia/front.layouts.*": ["apps/thefront-v3/src/layouts/*"],
+      "@watheia/front.theme": ["apps/thefront-v3/src/theme/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
