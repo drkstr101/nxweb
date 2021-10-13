@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecular/atoms/dark-mode-toggler",
+  "sourceRoot": "libs/molecular/atoms/dark-mode-toggler/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecular/atoms/dark-mode-toggler",
+        "tsConfig": "libs/molecular/atoms/dark-mode-toggler/tsconfig.lib.json",
+        "project": "libs/molecular/atoms/dark-mode-toggler/package.json",
+        "entryFile": "libs/molecular/atoms/dark-mode-toggler/src/index.ts",
+        "external": ["react/jsx-runtime", "@emotion/styled/base"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecular/atoms/dark-mode-toggler/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecular/atoms/dark-mode-toggler/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecular/atoms/dark-mode-toggler"],
+      "options": {
+        "jestConfig": "libs/molecular/atoms/dark-mode-toggler/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

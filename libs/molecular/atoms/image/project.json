@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecular/atoms/image",
+  "sourceRoot": "libs/molecular/atoms/image/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecular/atoms/image",
+        "tsConfig": "libs/molecular/atoms/image/tsconfig.lib.json",
+        "project": "libs/molecular/atoms/image/package.json",
+        "entryFile": "libs/molecular/atoms/image/src/index.ts",
+        "external": ["react/jsx-runtime", "@emotion/styled/base"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecular/atoms/image/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecular/atoms/image/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecular/atoms/image"],
+      "options": {
+        "jestConfig": "libs/molecular/atoms/image/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

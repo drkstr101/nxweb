@@ -57,6 +57,7 @@
     "validate.js": "^0.13.1"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "11.2.0",
     "@nrwl/cli": "12.10.0",
     "@nrwl/cypress": "12.10.0",
     "@nrwl/eslint-plugin-nx": "12.10.0",

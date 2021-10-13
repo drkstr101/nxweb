@@ -25,9 +25,18 @@
       "@watheia/front.layouts.*": ["apps/thefront-v3/src/layouts/*"],
       "@watheia/front.molecules": ["apps/thefront-v3/src/components/molecules/index.ts"],
       "@watheia/front.organisms": ["apps/thefront-v3/src/components/organisms/index.ts"],
-      "@watheia/theme.theme-provider": ["apps/thefront-v3/src/theme/index.ts"],
       "@watheia/front.views.*": ["apps/thefront-v3/src/views/*/index.ts"],
       "@watheia/layout": ["libs/ui/layout/src/index.ts"],
+      "@watheia/molecular.atoms.dark-mode-toggler": [
+        "libs/molecular/atoms/dark-mode-toggler/src/index.ts"
+      ],
+      "@watheia/molecular.atoms.icon": ["libs/molecular/atoms/icon/src/index.ts"],
+      "@watheia/molecular.atoms.icon-text": ["libs/molecular/atoms/icon-text/src/index.ts"],
+      "@watheia/molecular.atoms.image": ["libs/molecular/atoms/image/src/index.ts"],
+      "@watheia/molecular.atoms.link": ["libs/molecular/atoms/link/src/index.ts"],
+      "@watheia/molecular.atoms.scroll-top": [
+        "libs/molecular/atoms/scroll-top/src/index.ts"
+      ],
       "@watheia/theme.styles.global/*": ["libs/theme/styles/global/src/*"],
       "@watheia/theme.theme-provider": ["libs/theme/theme-provider/src/index.ts"]
     }

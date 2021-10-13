@@ -1,6 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "molecular-atoms-dark-mode-toggler": "libs/molecular/atoms/dark-mode-toggler",
+    "molecular-atoms-icon": "libs/molecular/atoms/icon",
+    "molecular-atoms-icon-text": "libs/molecular/atoms/icon-text",
+    "molecular-atoms-image": "libs/molecular/atoms/image",
+    "molecular-atoms-link": "libs/molecular/atoms/link",
+    "molecular-atoms-scroll-top": "libs/molecular/atoms/scroll-top",
     "thefront-v3": "apps/thefront-v3",
     "thefront-v3-e2e": "apps/thefront-v3-e2e",
     "theme-styles-global": "libs/theme/styles/global",
