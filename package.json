@@ -20,6 +20,7 @@
     "@material-ui/styles": "^4.11.4",
     "@mui/material": "^5.0.3",
     "@nrwl/next": "12.10.0",
+    "@prisma/client": "3.2.1",
     "@reach/skip-nav": "^0.16.0",
     "@supabase/supabase-js": "^1.24.0",
     "@supabase/ui": "^0.35.0",
@@ -37,7 +38,6 @@
     "next": "11.1.2",
     "nprogress": "^0.2.0",
     "postcss": "^8.3.9",
-    "prisma": "^3.2.1",
     "query-string": "^7.0.1",
     "react": "17.0.2",
     "react-countup": "^6.0.0",
@@ -45,6 +45,7 @@
     "react-dom": "17.0.2",
     "react-lazy-load-image-component": "^1.5.1",
     "react-leaflet": "^3.2.2",
+    "react-markdown": "7.0.1",
     "react-router-dom": "^5.3.0",
     "react-syntax-highlighter": "^15.4.4",
     "react-typed": "^1.2.0",
@@ -113,6 +114,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-svg": "^3.0.0",
     "prettier": "^2.4.1",
+    "prisma": "3.2.1",
     "stylelint": "^13.13.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^8.0.2",
@@ -120,5 +122,8 @@
     "ts-jest": "27.0.5",
     "typescript": "~4.3.5"
   },
-  "packageManager": "yarn@3.0.2"
+  "packageManager": "yarn@3.0.2",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
 }

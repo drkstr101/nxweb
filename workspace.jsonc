@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -65,7 +65,10 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts", "**/*.spec.tsx"],
+    "devFilePatterns": [
+      "**/*.spec.ts",
+      "**/*.spec.tsx"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -83,7 +86,9 @@
      **/
     "*": {
       "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": ["--access public"],
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
         "packageJson": {
           "name": "@watheia/{scope}.{name}",
           "homepage": "https://watheia.app",
@@ -113,7 +118,7 @@
     "{env/*}, {apps/*}": {
       "teambit.harmony/aspect": {}
     },
-    "{theme/*}": {
+    "{atoms/*}, {molecules/*}, {orginisms/*}": {
       "teambit.react/react": {}
     },
     "{utils/*}": {
@@ -121,18 +126,6 @@
     },
     "libs/molecular": {
       "defaultScope": "watheia.molecular"
-    },
-    "libs/theme": {
-      "defaultScope": "watheia.theme"
-    },
-    "libs/layout": {
-      "defaultScope": "watheia.layout"
-    },
-    "libs/content": {
-      "defaultScope": "watheia.content",
-      "teambit.react/react": {
-        "mdx": true
-      }
     }
   }
 }
