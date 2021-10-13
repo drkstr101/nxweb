@@ -1,0 +1,28 @@
+{
+  "root": "apps/nextjs-with-supabase-auth-e2e",
+  "sourceRoot": "apps/nextjs-with-supabase-auth-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/nextjs-with-supabase-auth-e2e/cypress.json",
+        "devServerTarget": "nextjs-with-supabase-auth:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "nextjs-with-supabase-auth:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/nextjs-with-supabase-auth-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["nextjs-with-supabase-auth"]
+}

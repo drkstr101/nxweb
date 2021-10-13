@@ -1,0 +1,53 @@
+{
+  "root": "apps/nextjs-with-supabase-auth",
+  "sourceRoot": "apps/nextjs-with-supabase-auth",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "root": "apps/nextjs-with-supabase-auth",
+        "outputPath": "dist/apps/nextjs-with-supabase-auth"
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "nextjs-with-supabase-auth:build",
+        "dev": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "nextjs-with-supabase-auth:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "nextjs-with-supabase-auth:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/nextjs-with-supabase-auth"],
+      "options": {
+        "jestConfig": "apps/nextjs-with-supabase-auth/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/nextjs-with-supabase-auth/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

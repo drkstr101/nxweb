@@ -7,6 +7,8 @@
     "molecular-atoms-image": "libs/molecular/atoms/image",
     "molecular-atoms-link": "libs/molecular/atoms/link",
     "molecular-atoms-scroll-top": "libs/molecular/atoms/scroll-top",
+    "nextjs-with-supabase-auth": "apps/nextjs-with-supabase-auth",
+    "nextjs-with-supabase-auth-e2e": "apps/nextjs-with-supabase-auth-e2e",
     "thefront-v3": "apps/thefront-v3",
     "thefront-v3-e2e": "apps/thefront-v3-e2e",
     "theme-styles-global": "libs/theme/styles/global",
