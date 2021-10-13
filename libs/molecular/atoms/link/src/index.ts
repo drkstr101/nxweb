@@ -1,1 +1,2 @@
-export * from "./lib/molecular-atoms-link"
+export type { LearnMoreLinkProps } from "./LearnMoreLinkProps"
+export { default } from "./LearnMoreLink"

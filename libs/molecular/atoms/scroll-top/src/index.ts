@@ -1,1 +1,1 @@
-export * from "./lib/molecular-atoms-scroll-top"
+export { default } from "./ScrollTop"
