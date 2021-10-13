@@ -3053,6 +3053,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/engines@npm:3.2.1-1.b71d8cb16c4ddc7e3e9821f42fd09b0f82d7934c":
+  version: 3.2.1-1.b71d8cb16c4ddc7e3e9821f42fd09b0f82d7934c
+  resolution: "@prisma/engines@npm:3.2.1-1.b71d8cb16c4ddc7e3e9821f42fd09b0f82d7934c"
+  checksum: ea3cd834f7e7e3757bb86677168969422e27489b672eb434cac901e981ac2e74e81a6ba3b68035e79cd08bcd3093fe5ca77a877b75008cabe509614269d57458
+  languageName: node
+  linkType: hard
+
 "@reach/skip-nav@npm:^0.16.0":
   version: 0.16.0
   resolution: "@reach/skip-nav@npm:0.16.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40reach%2Fskip-nav%2F-%2Fskip-nav-0.16.0.tgz"
@@ -14447,6 +14454,7 @@ fsevents@^1.2.7:
     postcss-preset-env: ^6.7.0
     postcss-svg: ^3.0.0
     prettier: ^2.4.1
+    prisma: ^3.2.1
     query-string: ^7.0.1
     react: 17.0.2
     react-countup: ^6.0.0
@@ -16554,6 +16562,18 @@ fsevents@^1.2.7:
   version: 1.0.3
   resolution: "pretty-hrtime@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpretty-hrtime%2F-%2Fpretty-hrtime-1.0.3.tgz"
   checksum: bae0e6832fe13c3de43d1a3d43df52bf6090499d74dc65a17f5552cb1a94f1f8019a23284ddf988c3c408a09678d743901e1d8f5b7a71bec31eeeac445bef371
+  languageName: node
+  linkType: hard
+
+"prisma@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "prisma@npm:3.2.1"
+  dependencies:
+    "@prisma/engines": 3.2.1-1.b71d8cb16c4ddc7e3e9821f42fd09b0f82d7934c
+  bin:
+    prisma: build/index.js
+    prisma2: build/index.js
+  checksum: e05b09ceb42c6247828f7b32004f253897b20e874c18cb7eb837034a7dd7d92146607a76c0f777381d1767fc525b6f973bd6aba34a706147510fb3648b6b0d72
   languageName: node
   linkType: hard
 
