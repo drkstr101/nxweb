@@ -9,7 +9,9 @@ import {
   InputAdornment,
   Button
 } from "@material-ui/core"
-import { Image, Icon, IconText } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
+import IconText from "@watheia/molecular.atoms.icon-text"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

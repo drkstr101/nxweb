@@ -2,7 +2,7 @@ import React from "react"
 import { Box, colors, Grid, Button, Typography } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { CardPricingStandard } from "@watheia/front.organisms"
-import { Icon } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
 
 const importCodeString = `
 import { CardPricingStandard } from 'components/organisms';
@@ -89,7 +89,7 @@ const exampleCode1 = `
 import React from 'react';
 import { Box, colors, Grid, Button, Typography } from '@material-ui/core';
 import { CardPricingStandard } from 'components/organisms';
-import { Icon } from '@watheia/front.atoms';
+import Icon from "@watheia/molecular.atoms.icon";
 
 export default function Example() {
   return (
@@ -153,7 +153,7 @@ const exampleCode2 = `
 import React from 'react';
 import { Box, colors, Grid, Button, Typography } from '@material-ui/core';
 import { CardPricingStandard } from 'components/organisms';
-import { Icon } from '@watheia/front.atoms';
+import Icon from "@watheia/molecular.atoms.icon";
 
 export default function Example() {
   return (
@@ -220,7 +220,7 @@ const exampleCode3 = `
 import React from 'react';
 import { Box, colors, Grid, Button, Typography } from '@material-ui/core';
 import { CardPricingStandard } from 'components/organisms';
-import { Icon } from '@watheia/front.atoms';
+import Icon from "@watheia/molecular.atoms.icon";
 
 export default function Example() {
   return (

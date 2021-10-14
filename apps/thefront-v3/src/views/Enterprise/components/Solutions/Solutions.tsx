@@ -3,7 +3,8 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import { Grid, Button, Typography } from "@material-ui/core"
 
-import { Image, LearnMoreLink } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

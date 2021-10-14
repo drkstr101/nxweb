@@ -12,7 +12,8 @@ import {
   Grid,
   Divider
 } from "@material-ui/core"
-import { Icon, Image } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
+import Image from "@watheia/molecular.atoms.image"
 import { CardProduct, Section, SectionAlternate } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

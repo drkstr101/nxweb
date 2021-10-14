@@ -2,7 +2,7 @@ import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { Grid, Button, useMediaQuery } from "@material-ui/core"
 
-import { LearnMoreLink } from "@watheia/front.atoms"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardJobTag } from "@watheia/front.organisms"
 

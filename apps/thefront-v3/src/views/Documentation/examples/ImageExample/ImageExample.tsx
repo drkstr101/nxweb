@@ -1,7 +1,7 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 
 const importCodeString = `
 import { Image } from '@watheia/front.atoms';

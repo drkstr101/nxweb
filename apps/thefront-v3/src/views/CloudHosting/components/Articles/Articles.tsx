@@ -3,7 +3,7 @@ import clsx from "clsx"
 import Swiper from "swiper"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Card, CardMedia, CardContent, Typography } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({
