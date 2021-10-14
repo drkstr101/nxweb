@@ -46,7 +46,7 @@ const DescriptionCta = ({
     <Grid
       container
       spacing={2}
-      justify="space-between"
+      justifyContent="space-between"
       alignItems="center"
       className={clsx("description-cta", className)}
       {...rest}
