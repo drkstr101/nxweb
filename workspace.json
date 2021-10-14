@@ -5,7 +5,7 @@
     "molecular-atoms-icon": "libs/molecular/atoms/icon",
     "molecular-atoms-icon-text": "libs/molecular/atoms/icon-text",
     "molecular-atoms-image": "libs/molecular/atoms/image",
-    "molecular-atoms-link": "libs/molecular/atoms/link",
+    "molecular-atoms-learn-more-link": "libs/molecular/atoms/learn-more-link",
     "molecular-atoms-scroll-top": "libs/molecular/atoms/scroll-top",
     "nextjs-with-supabase-auth": "apps/nextjs-with-supabase-auth",
     "nextjs-with-supabase-auth-e2e": "apps/nextjs-with-supabase-auth-e2e",

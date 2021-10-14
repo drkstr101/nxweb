@@ -33,7 +33,9 @@
       "@watheia/molecular.atoms.icon": ["libs/molecular/atoms/icon/src/index.ts"],
       "@watheia/molecular.atoms.icon-text": ["libs/molecular/atoms/icon-text/src/index.ts"],
       "@watheia/molecular.atoms.image": ["libs/molecular/atoms/image/src/index.ts"],
-      "@watheia/molecular.atoms.link": ["libs/molecular/atoms/link/src/index.ts"],
+      "@watheia/molecular.atoms.learn-more-link": [
+        "libs/molecular/atoms/learn-more-link/src/index.ts"
+      ],
       "@watheia/molecular.atoms.scroll-top": [
         "libs/molecular/atoms/scroll-top/src/index.ts"
       ],

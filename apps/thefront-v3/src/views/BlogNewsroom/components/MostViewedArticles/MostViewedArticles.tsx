@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors, Button, Typography, Grid } from "@material-ui/core"
 import Image from "@watheia/molecular.atoms.image"
-import LearnMoreLink from "@watheia/molecular.atoms.link"
+import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
 import { DescriptionCta } from "@watheia/front.molecules"
 import { CardProduct } from "@watheia/front.organisms"
 

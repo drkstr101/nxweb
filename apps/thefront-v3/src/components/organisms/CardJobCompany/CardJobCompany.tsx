@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Typography, Avatar } from "@material-ui/core"
 import { CardBase } from "@watheia/front.organisms"
-import LearnMoreLink from "@watheia/molecular.atoms.link"
+import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
 
 const useStyles = makeStyles((theme) => ({
   root: {

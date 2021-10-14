@@ -23,14 +23,14 @@ export interface LearnMoreLinkProps {
    * Color of the link
    */
   color?:
-  | "inherit"
-  | "initial"
-  | "primary"
-  | "secondary"
-  | "textPrimary"
-  | "textSecondary"
-  | "error"
-  | undefined
+    | "inherit"
+    | "initial"
+    | "primary"
+    | "secondary"
+    | "textPrimary"
+    | "textSecondary"
+    | "error"
+    | undefined
   /**
    * Additional properties to pass to the Icon component
    */
