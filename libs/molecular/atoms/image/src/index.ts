@@ -1,1 +1,2 @@
-export * from "./lib/molecular-atoms-image"
+export type { ImageProps } from "./ImageProps"
+export { default } from "./Image"

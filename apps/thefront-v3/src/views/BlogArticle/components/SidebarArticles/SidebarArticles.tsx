@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors, Typography, Grid } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

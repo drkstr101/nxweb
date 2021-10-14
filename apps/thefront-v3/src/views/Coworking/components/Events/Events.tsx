@@ -1,7 +1,9 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Typography, Button } from "@material-ui/core"
-import { Image, IconText, LearnMoreLink } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
+import IconText from "@watheia/molecular.atoms.icon-text"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardProduct } from "@watheia/front.organisms"
 

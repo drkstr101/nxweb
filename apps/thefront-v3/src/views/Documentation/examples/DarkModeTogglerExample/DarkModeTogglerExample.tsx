@@ -4,9 +4,7 @@ import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../c
 import { DarkModeToggler } from "@watheia/front.atoms"
 
 const importCodeString = `
-import { DarkModeToggler } from '@watheia/front.atoms';
-// or
-import DarkModeToggler from 'components/atoms/DarkModeToggler';
+import DarkModeToggler from "@watheia/molecular.atoms.dark-mode-toggler";
 `
 
 const dataProperties = [
@@ -33,7 +31,7 @@ const dataProperties = [
 const exampleCode = `
 import React, { useState } from 'react';
 import { Box } from '@material-ui/core';
-import { DarkModeToggler } from '@watheia/front.atoms';
+import DarkModeToggler from "@watheia/molecular.atoms.dark-mode-toggler";
 
 export default function DarkModeTogglerExample() {
   const [themeMode, setThemeMode] = useState('light');

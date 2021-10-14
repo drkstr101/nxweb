@@ -3,8 +3,8 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import Swiper from "swiper"
 
-import { Image } from "@watheia/front.atoms"
 import { cardShadow } from "@watheia/theme.theme-provider"
+import Image from "@watheia/molecular.atoms.image"
 
 const useStyles = makeStyles((theme) => ({
   root: {

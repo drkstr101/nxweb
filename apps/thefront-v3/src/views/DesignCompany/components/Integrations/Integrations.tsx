@@ -2,7 +2,8 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 
 import { useMediaQuery, Grid } from "@material-ui/core"
-import { LearnMoreLink, Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardBase } from "@watheia/front.organisms"
 

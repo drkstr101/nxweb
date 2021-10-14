@@ -1,8 +1,8 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Form } from "./components"
-import { Image } from "@watheia/front.atoms"
-import { LearnMoreLink } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader } from "@watheia/front.molecules"
 import { HeroShaped } from "@watheia/front.organisms"
 

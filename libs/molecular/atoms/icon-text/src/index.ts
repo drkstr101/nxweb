@@ -1,1 +1,2 @@
-export * from "./lib/molecular-atoms-icon-text"
+export type { IconTextProps } from "./IconTextProps"
+export { default } from "./IconText"

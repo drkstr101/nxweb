@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react"
 
-import MolecularAtomsIcon from "./molecular-atoms-icon"
+import Icon from "./Icon"
 
 describe("MolecularAtomsIcon", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularAtomsIcon />)
+    const { baseElement } = render(<Icon fontIconClass="email" />)
     expect(baseElement).toBeTruthy()
   })
 })

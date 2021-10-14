@@ -1,8 +1,8 @@
-import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Typography } from "@material-ui/core"
-import { Icon } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
+import { IconTextProps } from "./IconTextProps"
 
 const useStyles = makeStyles((theme) => ({
   root: {

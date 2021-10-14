@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors, FormControl, OutlinedInput, InputAdornment } from "@material-ui/core"
-import { Icon } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { Section } from "@watheia/front.organisms"
 

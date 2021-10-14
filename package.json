@@ -7,7 +7,7 @@
     "start": "nx serve",
     "build:apps": "nx affected:apps",
     "build:libs": "nx affected:libs",
-    "build": "prisma generate && nx affected:build",
+    "build": "nx affected:build",
     "e2e": "nx affected:e2e",
     "test": "nx affected:test",
     "lint": "nx workspace-lint && nx affected:lint",

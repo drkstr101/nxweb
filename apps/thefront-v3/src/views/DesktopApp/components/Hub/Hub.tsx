@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Typography } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader, CountUpNumber } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

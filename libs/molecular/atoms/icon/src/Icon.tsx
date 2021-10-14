@@ -2,6 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import NoSsr from "@material-ui/core/NoSsr"
+import { IconProps } from "./IconProps"
 
 const useStyles = makeStyles(() => ({
   extraSmall: {

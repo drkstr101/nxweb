@@ -1,1 +1,2 @@
-export * from "./lib/molecular-atoms-dark-mode-toggler"
+export type { DarkModeTogglerProps } from "./DarkModeTogglerProps"
+export { default } from "./DarkModeToggler"

@@ -10,7 +10,8 @@ import {
   Button,
   Typography
 } from "@material-ui/core"
-import { Image, Icon } from "@watheia/front.atoms"
+import Icon from "@watheia/molecular.atoms.icon"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

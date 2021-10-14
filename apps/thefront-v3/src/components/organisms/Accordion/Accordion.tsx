@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 
-import { LearnMoreLink } from "@watheia/front.atoms"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 
 const useStyles = makeStyles((theme) => ({
   root: {

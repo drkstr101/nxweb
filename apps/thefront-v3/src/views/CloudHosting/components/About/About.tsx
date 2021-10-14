@@ -9,7 +9,7 @@ import {
   Avatar,
   ListItemText
 } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 import { Section, CardBase } from "@watheia/front.organisms"
 

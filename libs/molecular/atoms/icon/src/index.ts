@@ -1,1 +1,2 @@
-export * from "./lib/molecular-atoms-icon"
+export type { IconProps } from "./IconProps"
+export { default } from "./Icon"

@@ -3,6 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Typography, IconButton } from "@material-ui/core"
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt"
+import { LearnMoreLinkProps } from "./LearnMoreLinkProps"
 
 const useStyles = makeStyles((theme) => ({
   root: {

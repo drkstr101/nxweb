@@ -14,7 +14,8 @@ import {
 } from "@material-ui/core"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import MenuIcon from "@material-ui/icons/Menu"
-import { Image, DarkModeToggler } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
+import DarkModeToggler from "@watheia/molecular.atoms.dark-mode-toggler"
 import { contentWidth } from "@watheia/theme.theme-provider"
 
 const useStyles = makeStyles((theme) => ({

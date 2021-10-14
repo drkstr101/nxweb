@@ -8,7 +8,7 @@ import {
   Button,
   Divider
 } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 import { Section } from "@watheia/front.organisms"
 

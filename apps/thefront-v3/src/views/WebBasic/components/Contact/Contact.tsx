@@ -9,7 +9,7 @@ import {
   Button,
   colors
 } from "@material-ui/core"
-import { Image } from "@watheia/front.atoms"
+import Image from "@watheia/molecular.atoms.image"
 import { SectionHeader, IconAlternate, TypedText } from "@watheia/front.molecules"
 import { CardProduct } from "@watheia/front.organisms"
 

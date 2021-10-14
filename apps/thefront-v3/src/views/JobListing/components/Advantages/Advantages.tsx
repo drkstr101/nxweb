@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Button } from "@material-ui/core"
-import { LearnMoreLink } from "@watheia/front.atoms"
+import LearnMoreLink from "@watheia/molecular.atoms.link"
 import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
