@@ -5,7 +5,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "parserOptions": {
-        "project": ["libs/molecular/molecules/overlaped-images/tsconfig.*?.json"]
+        "project": ["libs/molecular/molecules/overlapped-images/tsconfig.*?.json"]
       },
       "rules": {}
     },

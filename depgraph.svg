@@ -160,9 +160,9 @@
 <text text-anchor="middle" x="1537.25" y="-47234.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">IconAlternate</text>
 </g>
 <g id="clust29" class="cluster">
-<title>cluster_apps/thefront&#45;v3/src/components/molecules/OverlapedImages</title>
+<title>cluster_apps/thefront&#45;v3/src/components/molecules/OverlappedImages</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1413,-47434C1413,-47434 1672,-47434 1672,-47434 1678,-47434 1684,-47440 1684,-47446 1684,-47446 1684,-47474 1684,-47474 1684,-47480 1678,-47486 1672,-47486 1672,-47486 1413,-47486 1413,-47486 1407,-47486 1401,-47480 1401,-47474 1401,-47474 1401,-47446 1401,-47446 1401,-47440 1407,-47434 1413,-47434"/>
-<text text-anchor="middle" x="1542.5" y="-47474.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">OverlapedImages</text>
+<text text-anchor="middle" x="1542.5" y="-47474.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">OverlappedImages</text>
 </g>
 <g id="clust33" class="cluster">
 <title>cluster_apps/thefront&#45;v3/src/components/molecules/TypedText</title>
@@ -735,9 +735,9 @@
 <text text-anchor="middle" x="1028" y="-27104.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">VerticalTransparent</text>
 </g>
 <g id="clust141" class="cluster">
-<title>cluster_apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped</title>
+<title>cluster_apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M905.5,-27364C905.5,-27364 1146.5,-27364 1146.5,-27364 1152.5,-27364 1158.5,-27370 1158.5,-27376 1158.5,-27376 1158.5,-27404 1158.5,-27404 1158.5,-27410 1152.5,-27416 1146.5,-27416 1146.5,-27416 905.5,-27416 905.5,-27416 899.5,-27416 893.5,-27410 893.5,-27404 893.5,-27404 893.5,-27376 893.5,-27376 893.5,-27370 899.5,-27364 905.5,-27364"/>
-<text text-anchor="middle" x="1026" y="-27404.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">VerticalOverlaped</text>
+<text text-anchor="middle" x="1026" y="-27404.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">VerticalOverlapped</text>
 </g>
 <g id="clust138" class="cluster">
 <title>cluster_apps/thefront&#45;v3/src/views/BlogReachView/components/HorizontalCover</title>
@@ -1335,9 +1335,9 @@
 <text text-anchor="middle" x="884.25" y="-34272.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">SwiperNumberExample</text>
 </g>
 <g id="clust274" class="cluster">
-<title>cluster_apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample</title>
+<title>cluster_apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M780,-34472C780,-34472 994.5,-34472 994.5,-34472 1000.5,-34472 1006.5,-34478 1006.5,-34484 1006.5,-34484 1006.5,-34512 1006.5,-34512 1006.5,-34518 1000.5,-34524 994.5,-34524 994.5,-34524 780,-34524 780,-34524 774,-34524 768,-34518 768,-34512 768,-34512 768,-34484 768,-34484 768,-34478 774,-34472 780,-34472"/>
-<text text-anchor="middle" x="887.25" y="-34512.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">OverlapedImagesExample</text>
+<text text-anchor="middle" x="887.25" y="-34512.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">OverlappedImagesExample</text>
 </g>
 <g id="clust275" class="cluster">
 <title>cluster_apps/thefront&#45;v3/src/views/Documentation/examples/ParallaxExample</title>
@@ -6648,51 +6648,51 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1463.34,-47211C1463.34,-47211 1576.39,-47211 1576.39,-47211"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1576.39,-47213.1 1582.39,-47211 1576.39,-47208.9 1576.39,-47213.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx -->
 <g id="node163" class="node">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx</title>
-<g id="a_node163"><a xlink:href="apps/thefront-v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx" xlink:title="OverlapedImages.tsx">
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx</title>
+<g id="a_node163"><a xlink:href="apps/thefront-v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx" xlink:title="OverlappedImages.tsx">
 <path fill="#bbfeff" stroke="black" d="M1670,-47460C1670,-47460 1578,-47460 1578,-47460 1575,-47460 1572,-47457 1572,-47454 1572,-47454 1572,-47448 1572,-47448 1572,-47445 1575,-47442 1578,-47442 1578,-47442 1670,-47442 1670,-47442 1673,-47442 1676,-47445 1676,-47448 1676,-47448 1676,-47454 1676,-47454 1676,-47457 1673,-47460 1670,-47460"/>
-<text text-anchor="middle" x="1624" y="-47448.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlapedImages.tsx</text>
+<text text-anchor="middle" x="1624" y="-47448.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlappedImages.tsx</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/react -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/react -->
 <g id="edge251" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/react</title>
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/react</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1582,-47441.66C1582,-47430.7 1582,-47414 1582,-47414 1582,-47414 238,-47414 238,-47414 238,-47414 238,-8804.64 238,-8804.64 238,-8804.64 1611,-8804.64 1611,-8804.64 1611,-8804.64 1611,-7934.05 1611,-7934.05"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1613.1,-7934.05 1611,-7928.05 1608.9,-7934.05 1613.1,-7934.05"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/@material&#45;ui -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/@material&#45;ui -->
 <g id="edge248" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/@material&#45;ui</title>
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/@material&#45;ui</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1571.65,-47446.5C1561.01,-47446.5 1553,-47446.5 1553,-47446.5 1553,-47446.5 1553,-23996 1553,-23996 1553,-23996 710,-23996 710,-23996 710,-23996 710,-15123.44 710,-15123.44 710,-15123.44 1610,-15123.44 1610,-15123.44 1610,-15123.44 1610,-16561.72 1610,-16561.72"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1607.9,-16561.72 1610,-16567.72 1612.1,-16561.72 1607.9,-16561.72"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts -->
 <g id="edge249" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts</title>
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1572,-47455.5C1563.82,-47455.5 1558,-47455.5 1558,-47455.5 1558,-47455.5 1558,-54160.14 1558,-54160.14 1558,-54160.14 1328.6,-54160.14 1328.6,-54160.14"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1328.6,-54158.04 1322.6,-54160.14 1328.6,-54162.24 1328.6,-54158.04"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/clsx -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/clsx -->
 <g id="edge250" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx&#45;&gt;node_modules/clsx</title>
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx&#45;&gt;node_modules/clsx</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1676.25,-47451C1690.95,-47451 1703,-47451 1703,-47451 1703,-47451 1703,-47055 1703,-47055 1703,-47055 1656,-47055 1656,-47055 1656,-47055 1656,-24480.5 1656,-24480.5 1656,-24480.5 1534,-24480.5 1534,-24480.5 1534,-24480.5 1534,-12640.26 1534,-12640.26 1534,-12640.26 1632,-12640.26 1632,-12640.26 1632,-12640.26 1632,-11548.24 1632,-11548.24"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1634.1,-11548.24 1632,-11542.24 1629.9,-11548.24 1634.1,-11548.24"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts -->
 <g id="node164" class="node">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts</title>
-<g id="a_node164"><a xlink:href="apps/thefront-v3/src/components/molecules/OverlapedImages/index.ts" xlink:title="index.ts">
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts</title>
+<g id="a_node164"><a xlink:href="apps/thefront-v3/src/components/molecules/OverlappedImages/index.ts" xlink:title="index.ts">
 <path fill="#ddfeff" stroke="black" d="M1457,-47460C1457,-47460 1415,-47460 1415,-47460 1412,-47460 1409,-47457 1409,-47454 1409,-47454 1409,-47448 1409,-47448 1409,-47445 1412,-47442 1415,-47442 1415,-47442 1457,-47442 1457,-47442 1460,-47442 1463,-47445 1463,-47448 1463,-47448 1463,-47454 1463,-47454 1463,-47457 1460,-47460 1457,-47460"/>
 <text text-anchor="middle" x="1436" y="-47448.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx -->
+<!-- apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx -->
 <g id="edge252" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlapedImages/OverlapedImages.tsx</title>
+<title>apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlappedImages/OverlappedImages.tsx</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1463.34,-47451C1463.34,-47451 1565.74,-47451 1565.74,-47451"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1565.74,-47453.1 1571.74,-47451 1565.74,-47448.9 1565.74,-47453.1"/>
 </g>
@@ -6948,9 +6948,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1321,-47092.21C1321,-47121.55 1321,-47211 1321,-47211 1321,-47211 1402.75,-47211 1402.75,-47211"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1402.75,-47213.1 1408.75,-47211 1402.75,-47208.9 1402.75,-47213.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/components/molecules/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts -->
+<!-- apps/thefront&#45;v3/src/components/molecules/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts -->
 <g id="edge277" class="edge">
-<title>apps/thefront&#45;v3/src/components/molecules/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlapedImages/index.ts</title>
+<title>apps/thefront&#45;v3/src/components/molecules/index.ts&#45;&gt;apps/thefront&#45;v3/src/components/molecules/OverlappedImages/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1318,-47092.1C1318,-47148.77 1318,-47451 1318,-47451 1318,-47451 1402.93,-47451 1402.93,-47451"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1402.93,-47453.1 1408.93,-47451 1402.93,-47448.9 1402.93,-47453.1"/>
 </g>
@@ -9252,12 +9252,12 @@
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/types/OverlapedImagesProps.d.ts -->
+<!-- apps/thefront&#45;v3/src/types/OverlappedImagesProps.d.ts -->
 <g id="node277" class="node">
-<title>apps/thefront&#45;v3/src/types/OverlapedImagesProps.d.ts</title>
-<g id="a_node277"><a xlink:href="apps/thefront-v3/src/types/OverlapedImagesProps.d.ts" xlink:title="OverlapedImagesProps.d.ts">
+<title>apps/thefront&#45;v3/src/types/OverlappedImagesProps.d.ts</title>
+<g id="a_node277"><a xlink:href="apps/thefront-v3/src/types/OverlappedImagesProps.d.ts" xlink:title="OverlappedImagesProps.d.ts">
 <path fill="#ccffcc" stroke="black" d="M495,-50318C495,-50318 375,-50318 375,-50318 372,-50318 369,-50315 369,-50312 369,-50312 369,-50306 369,-50306 369,-50303 372,-50300 375,-50300 375,-50300 495,-50300 495,-50300 498,-50300 501,-50303 501,-50306 501,-50306 501,-50312 501,-50312 501,-50315 498,-50318 495,-50318"/>
-<text text-anchor="middle" x="435" y="-50306.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlapedImagesProps.d.ts</text>
+<text text-anchor="middle" x="435" y="-50306.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlappedImagesProps.d.ts</text>
 </a>
 </g>
 </g>
@@ -11995,18 +11995,18 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M798,-27281.62C798,-27248.78 798,-27141 798,-27141 798,-27141 895.46,-27141 895.46,-27141"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="895.46,-27143.1 901.46,-27141 895.46,-27138.9 895.46,-27143.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts -->
 <g id="node399" class="node">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts</title>
-<g id="a_node399"><a xlink:href="apps/thefront-v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts" xlink:title="index.ts">
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts</title>
+<g id="a_node399"><a xlink:href="apps/thefront-v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts" xlink:title="index.ts">
 <path fill="#ddfeff" stroke="black" d="M949.5,-27390C949.5,-27390 907.5,-27390 907.5,-27390 904.5,-27390 901.5,-27387 901.5,-27384 901.5,-27384 901.5,-27378 901.5,-27378 901.5,-27375 904.5,-27372 907.5,-27372 907.5,-27372 949.5,-27372 949.5,-27372 952.5,-27372 955.5,-27375 955.5,-27378 955.5,-27378 955.5,-27384 955.5,-27384 955.5,-27387 952.5,-27390 949.5,-27390"/>
 <text text-anchor="middle" x="928.5" y="-27378.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts -->
 <g id="edge827" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M817,-27300.29C817,-27323.29 817,-27381 817,-27381 817,-27381 895.22,-27381 895.22,-27381"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="895.22,-27383.1 901.22,-27381 895.22,-27378.9 895.22,-27383.1"/>
 </g>
@@ -12250,42 +12250,42 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M955.6,-27138C955.6,-27138 1063.36,-27138 1063.36,-27138"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1063.36,-27140.1 1069.36,-27138 1063.36,-27135.9 1063.36,-27140.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx -->
 <g id="node398" class="node">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx</title>
-<g id="a_node398"><a xlink:href="apps/thefront-v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx" xlink:title="VerticalOverlaped.tsx">
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx</title>
+<g id="a_node398"><a xlink:href="apps/thefront-v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx" xlink:title="VerticalOverlapped.tsx">
 <path fill="#bbfeff" stroke="black" d="M1144.5,-27390C1144.5,-27390 1054.5,-27390 1054.5,-27390 1051.5,-27390 1048.5,-27387 1048.5,-27384 1048.5,-27384 1048.5,-27378 1048.5,-27378 1048.5,-27375 1051.5,-27372 1054.5,-27372 1054.5,-27372 1144.5,-27372 1144.5,-27372 1147.5,-27372 1150.5,-27375 1150.5,-27378 1150.5,-27378 1150.5,-27384 1150.5,-27384 1150.5,-27387 1147.5,-27390 1144.5,-27390"/>
-<text text-anchor="middle" x="1099.5" y="-27378.8" font-family="Helvetica,sans-Serif" font-size="9.00">VerticalOverlaped.tsx</text>
+<text text-anchor="middle" x="1099.5" y="-27378.8" font-family="Helvetica,sans-Serif" font-size="9.00">VerticalOverlapped.tsx</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;node_modules/react -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;node_modules/react -->
 <g id="edge814" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;node_modules/react</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;node_modules/react</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1150.61,-27378C1210.3,-27378 1301,-27378 1301,-27378 1301,-27378 1301,-11291.42 1301,-11291.42 1301,-11291.42 1634,-11291.42 1634,-11291.42 1634,-11291.42 1634,-7934.09 1634,-7934.09"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1636.1,-7934.09 1634,-7928.09 1631.9,-7934.09 1636.1,-7934.09"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;node_modules/@material&#45;ui -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;node_modules/@material&#45;ui -->
 <g id="edge811" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;node_modules/@material&#45;ui</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;node_modules/@material&#45;ui</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1056,-27371.71C1056,-27366.68 1056,-27361.5 1056,-27361.5 1056,-27361.5 632,-27361.5 632,-27361.5 632,-27361.5 632,-16581.47 632,-16581.47 632,-16581.47 1582.99,-16581.47 1582.99,-16581.47"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1582.99,-16583.57 1588.99,-16581.47 1582.99,-16579.37 1582.99,-16583.57"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts -->
 <g id="edge813" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;libs/molecular/atoms/image/src/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1134,-27390.2C1134,-27412.39 1134,-27467 1134,-27467 1134,-27467 1815,-27467 1815,-27467 1815,-27467 1815,-54170.42 1815,-54170.42 1815,-54170.42 1328.7,-54170.42 1328.7,-54170.42"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1328.7,-54168.32 1322.7,-54170.42 1328.7,-54172.52 1328.7,-54168.32"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;apps/thefront&#45;v3/src/components/organisms/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;apps/thefront&#45;v3/src/components/organisms/index.ts -->
 <g id="edge812" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx&#45;&gt;apps/thefront&#45;v3/src/components/organisms/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx&#45;&gt;apps/thefront&#45;v3/src/components/organisms/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1150.53,-27384C1314.44,-27384 1817,-27384 1817,-27384 1817,-27384 1817,-47592 1817,-47592 1817,-47592 1328.8,-47592 1328.8,-47592"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1328.8,-47589.9 1322.8,-47592 1328.8,-47594.1 1328.8,-47589.9"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx -->
+<!-- apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx -->
 <g id="edge815" class="edge">
-<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlaped/VerticalOverlaped.tsx</title>
+<title>apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/BlogReachView/components/VerticalOverlapped/VerticalOverlapped.tsx</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M955.6,-27381C955.6,-27381 1042.42,-27381 1042.42,-27381"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1042.42,-27383.1 1048.42,-27381 1042.42,-27378.9 1042.42,-27383.1"/>
 </g>
@@ -16957,18 +16957,18 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M724,-34917.73C724,-34859.98 724,-34552 724,-34552 724,-34552 769.81,-34552 769.81,-34552"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="769.81,-34554.1 775.81,-34552 769.81,-34549.9 769.81,-34554.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts -->
 <g id="node590" class="node">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts</title>
-<g id="a_node590"><a xlink:href="apps/thefront-v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts" xlink:title="index.ts">
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts</title>
+<g id="a_node590"><a xlink:href="apps/thefront-v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts" xlink:title="index.ts">
 <path fill="#ddfeff" stroke="black" d="M824,-34498C824,-34498 782,-34498 782,-34498 779,-34498 776,-34495 776,-34492 776,-34492 776,-34486 776,-34486 776,-34483 779,-34480 782,-34480 782,-34480 824,-34480 824,-34480 827,-34480 830,-34483 830,-34486 830,-34486 830,-34492 830,-34492 830,-34495 827,-34498 824,-34498"/>
 <text text-anchor="middle" x="803" y="-34486.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/Documentation.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/Documentation.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts -->
 <g id="edge1346" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/Documentation.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/Documentation.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M705,-34917.91C705,-34855.45 705,-34492 705,-34492 705,-34492 769.96,-34492 769.96,-34492"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="769.96,-34494.1 775.96,-34492 769.96,-34489.9 769.96,-34494.1"/>
 </g>
@@ -17587,18 +17587,18 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M830.23,-34549C830.23,-34549 881,-34549 881,-34549"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="881,-34551.1 887,-34549 881,-34546.9 881,-34551.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx -->
 <g id="node638" class="node">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx</title>
-<g id="a_node638"><a xlink:href="apps/thefront-v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx" xlink:title="OverlapedImagesExample.tsx">
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx</title>
+<g id="a_node638"><a xlink:href="apps/thefront-v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx" xlink:title="OverlappedImagesExample.tsx">
 <path fill="#bbfeff" stroke="black" d="M992.5,-34498C992.5,-34498 864.5,-34498 864.5,-34498 861.5,-34498 858.5,-34495 858.5,-34492 858.5,-34492 858.5,-34486 858.5,-34486 858.5,-34483 861.5,-34480 864.5,-34480 864.5,-34480 992.5,-34480 992.5,-34480 995.5,-34480 998.5,-34483 998.5,-34486 998.5,-34486 998.5,-34492 998.5,-34492 998.5,-34495 995.5,-34498 992.5,-34498"/>
-<text text-anchor="middle" x="928.5" y="-34486.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlapedImagesExample.tsx</text>
+<text text-anchor="middle" x="928.5" y="-34486.8" font-family="Helvetica,sans-Serif" font-size="9.00">OverlappedImagesExample.tsx</text>
 </a>
 </g>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx -->
 <g id="edge1525" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M830.23,-34486C830.23,-34486 852.34,-34486 852.34,-34486"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="852.34,-34488.1 858.34,-34486 852.34,-34483.9 852.34,-34488.1"/>
 </g>
@@ -18583,27 +18583,27 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M970.13,-34543.6C1023.16,-34543.6 1108,-34543.6 1108,-34543.6 1108,-34543.6 1108,-33604.14 1108,-33604.14"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1110.1,-33604.14 1108,-33598.14 1105.9,-33604.14 1110.1,-33604.14"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;node_modules/react -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;node_modules/react -->
 <g id="edge1524" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;node_modules/react</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;node_modules/react</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M998.59,-34489C1219.55,-34489 1887,-34489 1887,-34489 1887,-34489 1887,-7916.5 1887,-7916.5 1887,-7916.5 1657.16,-7916.5 1657.16,-7916.5"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1657.16,-7914.4 1651.16,-7916.5 1657.16,-7918.6 1657.16,-7914.4"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;node_modules/@material&#45;ui -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;node_modules/@material&#45;ui -->
 <g id="edge1522" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;node_modules/@material&#45;ui</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;node_modules/@material&#45;ui</title>
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M998.59,-34493.5C1219.55,-34493.5 1887,-34493.5 1887,-34493.5 1887,-34493.5 1887,-16569.67 1887,-16569.67 1887,-16569.67 1665.2,-16569.67 1665.2,-16569.67"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-opacity="0.200000" points="1665.2,-16567.57 1659.2,-16569.67 1665.2,-16571.77 1665.2,-16567.57"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/components/molecules/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/components/molecules/index.ts -->
 <g id="edge1523" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/components/molecules/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/components/molecules/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M858.42,-34492C850.38,-34492 845,-34492 845,-34492 845,-34492 845,-47076.48 845,-47076.48 845,-47076.48 1262.33,-47076.48 1262.33,-47076.48"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1262.33,-47078.58 1268.33,-47076.48 1262.33,-47074.38 1262.33,-47078.58"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/components/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/components/index.ts -->
 <g id="edge1521" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/OverlapedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/components/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/OverlappedImagesExample.tsx&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/components/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M998.51,-34484.5C1047.79,-34484.5 1105,-34484.5 1105,-34484.5 1105,-34484.5 1105,-33604.15 1105,-33604.15"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1107.1,-33604.15 1105,-33598.15 1102.9,-33604.15 1107.1,-33604.15"/>
 </g>
@@ -18952,9 +18952,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M687,-33868.19C687,-33949.72 687,-34546 687,-34546 687,-34546 769.8,-34546 769.8,-34546"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="769.8,-34548.1 775.8,-34546 769.8,-34543.9 769.8,-34548.1"/>
 </g>
-<!-- apps/thefront&#45;v3/src/views/Documentation/examples/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts -->
+<!-- apps/thefront&#45;v3/src/views/Documentation/examples/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts -->
 <g id="edge1589" class="edge">
-<title>apps/thefront&#45;v3/src/views/Documentation/examples/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlapedImagesExample/index.ts</title>
+<title>apps/thefront&#45;v3/src/views/Documentation/examples/index.ts&#45;&gt;apps/thefront&#45;v3/src/views/Documentation/examples/OverlappedImagesExample/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M691,-33868.35C691,-33946.35 691,-34486 691,-34486 691,-34486 769.89,-34486 769.89,-34486"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="769.89,-34488.1 775.89,-34486 769.89,-34483.9 769.89,-34488.1"/>
 </g>

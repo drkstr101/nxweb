@@ -1,6 +1,6 @@
 import React from "react"
 import { Grid, Typography } from "@material-ui/core"
-import { SectionHeader, OverlapedImages } from "@watheia/front.molecules"
+import { SectionHeader, OverlappedImages } from "@watheia/front.molecules"
 
 const Spaces = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
   <div className={className} {...rest}>
@@ -23,7 +23,7 @@ const Spaces = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
         />
       </Grid>
       <Grid item xs={12} md={6} data-aos="fade-up">
-        <OverlapedImages
+        <OverlappedImages
           image1={{
             src: "https://cdn.watheia.org/assets/photos/coworking/place1.jpg",
             srcSet: "https://cdn.watheia.org/assets/photos/coworking/place1@2x.jpg 2x",

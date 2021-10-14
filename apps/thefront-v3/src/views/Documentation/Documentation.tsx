@@ -71,8 +71,8 @@ const renderComponent = (): JSX.Element => {
       Component = <IconAlternateExample />
       break
     case "overlapped-images":
-      const OverlapedImagesExample = lazy(() => import("./examples/OverlapedImagesExample"))
-      Component = <OverlapedImagesExample />
+      const OverlappedImagesExample = lazy(() => import("./examples/OverlappedImagesExample"))
+      Component = <OverlappedImagesExample />
       break
     case "section-header":
       const SectionHeaderExample = lazy(() => import("./examples/SectionHeaderExample"))

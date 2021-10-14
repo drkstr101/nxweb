@@ -8,7 +8,7 @@ import {
   HorizontalCover,
   HorizontalTransparent,
   Vertical,
-  VerticalOverlaped,
+  VerticalOverlapped,
   VerticalTransparent
 } from "./components"
 
@@ -55,7 +55,7 @@ const BlogReachView = (): JSX.Element => {
           <Section>
             <Divider />
           </Section>
-          <VerticalOverlaped data={articles1} />
+          <VerticalOverlapped data={articles1} />
           <Section>
             <Divider />
           </Section>

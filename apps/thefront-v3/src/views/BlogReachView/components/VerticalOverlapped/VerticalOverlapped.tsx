@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-const VerticalOverlaped = ({
+const VerticalOverlapped = ({
   data,
   className,
   ...rest
@@ -134,4 +134,4 @@ const VerticalOverlaped = ({
   )
 }
 
-export default VerticalOverlaped
+export default VerticalOverlapped

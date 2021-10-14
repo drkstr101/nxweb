@@ -45,8 +45,8 @@
       "@watheia/molecular.molecules.description-cta": [
         "libs/molecular/molecules/description-cta/src/index.ts"
       ],
-      "@watheia/molecular.molecules.overlaped-images": [
-        "libs/molecular/molecules/overlaped-images/src/index.ts"
+      "@watheia/molecular.molecules.overlapped-images": [
+        "libs/molecular/molecules/overlapped-images/src/index.ts"
       ],
       "@watheia/molecular.molecules.section-header": [
         "libs/molecular/molecules/section-header/src/index.ts"

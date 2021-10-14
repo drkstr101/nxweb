@@ -1,4 +1,6 @@
-interface OverlapedImagesProps {
+import { ImageProps } from "@watheia/molecular.atoms.image"
+
+export interface OverlappedImagesProps {
   /**
    * External classes
    */
@@ -15,6 +17,7 @@ interface OverlapedImagesProps {
    * Image item - Object of src, srcset and alt properties
    */
   image3: ImageProps
+
   // All other props
   [x: string]: any
 }

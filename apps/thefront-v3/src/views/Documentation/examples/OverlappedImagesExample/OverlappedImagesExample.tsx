@@ -1,12 +1,12 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { OverlapedImages } from "@watheia/front.molecules"
+import { OverlappedImages } from "@watheia/front.molecules"
 
 const importCodeString = `
-import { OverlapedImages } from 'components/molecules';
+import { OverlappedImages } from 'components/molecules';
 // or
-import OverlapedImages from 'components/molecules/OverlapedImages';
+import OverlappedImages from 'components/molecules/OverlappedImages';
 `
 
 const dataProperties = [
@@ -39,12 +39,12 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box } from '@material-ui/core';
-import { OverlapedImages } from 'components/molecules';
+import { OverlappedImages } from 'components/molecules';
 
 export default function Example() {
   return (
     <Box marginBottom={2} display="flex" justifyContent="space-evenly" alignItems="center" padding={2} border="1px solid #ccc" borderRadius="4px">
-      <OverlapedImages
+      <OverlappedImages
         image1={{
             src: 'https://cdn.watheia.org/assets/photos/expo-gallery/gallery1.jpg',
             srcSet: 'https://cdn.watheia.org/assets/photos/expo-gallery/gallery1@2x.jpg 2x',
@@ -66,13 +66,13 @@ export default function Example() {
 }
 `
 
-const OverlapedImagesExample = ({ ...rest }: any): JSX.Element => (
+const OverlappedImagesExample = ({ ...rest }: any): JSX.Element => (
   <div {...rest}>
     <SectionBox title="Description" gutterBottom>
       <Headline
-        title="OverlapedImages"
-        path="src/components/molecules/OverlapedImages/OverlapedImages.js"
-        description="Component to display the overlaped images"
+        title="OverlappedImages"
+        path="src/components/molecules/OverlappedImages/OverlappedImages.js"
+        description="Component to display the overlapped images"
       />
     </SectionBox>
     <SectionBox title="Import" gutterBottom>
@@ -92,7 +92,7 @@ const OverlapedImagesExample = ({ ...rest }: any): JSX.Element => (
           border="1px solid #ccc"
           borderRadius="4px"
         >
-          <OverlapedImages
+          <OverlappedImages
             image1={{
               src: "https://cdn.watheia.org/assets/photos/expo-gallery/gallery1.jpg",
               srcSet:
@@ -119,4 +119,4 @@ const OverlapedImagesExample = ({ ...rest }: any): JSX.Element => (
   </div>
 )
 
-export default OverlapedImagesExample
+export default OverlappedImagesExample
