@@ -2,8 +2,9 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 
 import { Grid, Typography } from "@material-ui/core"
-import { SectionHeader, CountUpNumber } from "@watheia/front.molecules"
+import { SectionHeader } from "@watheia/front.molecules"
 import { HeroShaped, Map } from "@watheia/front.organisms"
+import CountUpNumber from "@watheia/molecular.molecules.count-up-number"
 
 const useStyles = makeStyles((theme) => ({
   placementGrid: {

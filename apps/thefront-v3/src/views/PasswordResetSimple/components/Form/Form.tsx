@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Typography, Grid, Button, TextField } from "@material-ui/core"
 import validate from "validate.js"
-import LearnMoreLink from "@watheia/molecular.atoms.link"
+import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
 
 const useStyles = makeStyles(() => ({
   root: {

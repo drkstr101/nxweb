@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react"
 
-import MolecularAtomsScrollTop from "./molecular-atoms-scroll-top"
+import ScrollTop from "./ScrollTop"
 
-describe("MolecularAtomsScrollTop", () => {
+describe("atoms/ScrollTop", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularAtomsScrollTop />)
+    const { baseElement } = render(<ScrollTop />)
     expect(baseElement).toBeTruthy()
   })
 })

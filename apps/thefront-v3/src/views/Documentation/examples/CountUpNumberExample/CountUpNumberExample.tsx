@@ -1,12 +1,10 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { CountUpNumber } from "@watheia/front.molecules"
+import CountUpNumber from "@watheia/molecular.molecules.count-up-number";
 
 const importCodeString = `
-import { CountUpNumber } from 'components/molecules';
-// or
-import CountUpNumber from 'components/molecules/CountUpNumber';
+import CountUpNumber from "@watheia/molecular.molecules.count-up-number";
 `
 
 const dataProperties = [
@@ -93,7 +91,7 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box } from '@material-ui/core';
-import { CountUpNumber } from 'components/molecules';
+import CountUpNumber from "@watheia/molecular.molecules.count-up-number";
 
 export default function Example() {
   return (

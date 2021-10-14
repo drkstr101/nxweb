@@ -10,7 +10,7 @@ import {
   Avatar,
   NoSsr
 } from "@material-ui/core"
-import LearnMoreLink from "@watheia/molecular.atoms.link"
+import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
 import { SectionHeader, SwiperImage } from "@watheia/front.molecules"
 import { CardProduct } from "@watheia/front.organisms"
 
