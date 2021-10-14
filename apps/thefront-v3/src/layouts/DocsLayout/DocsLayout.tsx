@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { makeStyles } from "@material-ui/core"
 import { Topbar, Navbar } from "./components"
-import ScrollTop from "@watheia/molecular.atoms.scroll-top"
+import ScrollTop from "@watheia/atoms.scroll-top"
 
 const useStyles = makeStyles((theme) => ({
   root: {

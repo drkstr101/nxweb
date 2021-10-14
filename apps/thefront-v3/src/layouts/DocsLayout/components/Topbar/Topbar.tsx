@@ -11,8 +11,8 @@ import {
   Button,
   makeStyles
 } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
-import DarkModeToggler from "@watheia/molecular.atoms.dark-mode-toggler"
+import Image from "@watheia/atoms.image"
+import DarkModeToggler from "@watheia/atoms.dark-mode-toggler"
 import MenuIcon from "@material-ui/icons/Menu"
 
 const useStyles = makeStyles((theme) => ({

@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, GridList, GridListTile } from "@material-ui/core"
 
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 
 const useStyles = makeStyles(() => ({
   image: {

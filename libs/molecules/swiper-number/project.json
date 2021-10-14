@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/swiper-number",
+  "sourceRoot": "libs/molecules/swiper-number/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/swiper-number",
+        "tsConfig": "libs/molecules/swiper-number/tsconfig.lib.json",
+        "project": "libs/molecules/swiper-number/package.json",
+        "entryFile": "libs/molecules/swiper-number/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/swiper-number/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/swiper-number/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/swiper-number"],
+      "options": {
+        "jestConfig": "libs/molecules/swiper-number/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

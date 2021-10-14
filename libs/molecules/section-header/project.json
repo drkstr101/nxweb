@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/section-header",
+  "sourceRoot": "libs/molecules/section-header/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/section-header",
+        "tsConfig": "libs/molecules/section-header/tsconfig.lib.json",
+        "project": "libs/molecules/section-header/package.json",
+        "entryFile": "libs/molecules/section-header/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/section-header/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/section-header/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/section-header"],
+      "options": {
+        "jestConfig": "libs/molecules/section-header/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

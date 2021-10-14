@@ -1,10 +1,10 @@
 import React from "react"
 import { Box, colors } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 
 const importCodeString = `
-import Icon from "@watheia/molecular.atoms.icon";
+import Icon from "@watheia/atoms.icon";
 // or
 import Icon from 'components/atoms/Icon';
 `
@@ -40,7 +40,7 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box, colors } from '@material-ui/core';
-import Icon from "@watheia/molecular.atoms.icon";
+import Icon from "@watheia/atoms.icon";
 
 export default function IconExample() {
   return (

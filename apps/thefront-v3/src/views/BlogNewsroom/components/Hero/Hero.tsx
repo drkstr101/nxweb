@@ -8,8 +8,8 @@ import {
   InputAdornment,
   Button
 } from "@material-ui/core"
-import Icon from "@watheia/molecular.atoms.icon"
-import Image from "@watheia/molecular.atoms.image"
+import Icon from "@watheia/atoms.icon"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 import { Section } from "@watheia/front.organisms"
 

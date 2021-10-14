@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Swiper from "swiper"
 
 import { cardShadow } from "@watheia/theme.theme-provider"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 
 const useStyles = makeStyles((theme) => ({
   root: {

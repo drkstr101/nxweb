@@ -2,7 +2,7 @@ import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 
 import { Grid, Typography } from "@material-ui/core"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 

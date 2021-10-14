@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import { Grid, Button, Typography } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

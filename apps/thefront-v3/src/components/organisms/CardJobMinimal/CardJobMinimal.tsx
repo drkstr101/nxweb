@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors, Typography } from "@material-ui/core"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,9 +22,9 @@ const useStyles = makeStyles((theme) => ({
       boxShadow:
         "0 11px 55px 10px rgba(0, 0, 0, 0.07), 0 13px 18px -8px rgba(0, 0, 0, 0.15)",
       "& .card-job-minimal__title, & .card-job-minimal__location, & .card-job-minimal__arrow":
-      {
-        color: "white !important"
-      }
+        {
+          color: "white !important"
+        }
     }
   },
   cardJobMinimalBody: {

@@ -1,8 +1,8 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Button, Typography, Grid } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import Image from "@watheia/atoms.image"
+import DescriptionCta from "@watheia/molecules.description-cta"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

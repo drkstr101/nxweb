@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Typography, Button } from "@material-ui/core"
 import { ToggleButtonGroup, ToggleButton } from "@material-ui/lab"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { Section, CardPricingStandard } from "@watheia/front.organisms"
 

@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Typography } from "@material-ui/core"
 
 import { SectionHeader } from "@watheia/front.molecules"
-import CountUpNumber from "@watheia/molecular.molecules.count-up-number"
+import CountUpNumber from "@watheia/molecules.count-up-number"
 
 const useStyles = makeStyles((theme) => ({
   title: {

@@ -1,7 +1,7 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, colors } from "@material-ui/core"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { DescriptionListIcon, CardBase } from "@watheia/front.organisms"
 

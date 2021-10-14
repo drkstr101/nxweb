@@ -1,7 +1,7 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Button, Typography } from "@material-ui/core"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import DescriptionCta from "@watheia/molecules.description-cta"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const Application = ({ className, ...rest }: ViewComponentProps): JSX.Element => {

@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "@material-ui/core"
 import { SectionHeader } from "@watheia/front.molecules"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import DescriptionCta from "@watheia/molecules.description-cta"
 
 const Application = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
   <div className={className} {...rest}>

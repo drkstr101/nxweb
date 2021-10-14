@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Divider } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { Section } from "@watheia/front.organisms"
 import { Contact, Locations, Story, Team } from "./components"
 

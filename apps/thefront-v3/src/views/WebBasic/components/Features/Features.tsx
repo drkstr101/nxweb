@@ -1,9 +1,9 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Typography } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
-import CountUpNumber from "@watheia/molecular.molecules.count-up-number"
+import CountUpNumber from "@watheia/molecules.count-up-number"
 
 const useStyles = makeStyles((theme) => ({
   placementGrid: {

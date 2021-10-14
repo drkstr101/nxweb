@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/icon-alternate",
+  "sourceRoot": "libs/molecules/icon-alternate/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/icon-alternate",
+        "tsConfig": "libs/molecules/icon-alternate/tsconfig.lib.json",
+        "project": "libs/molecules/icon-alternate/package.json",
+        "entryFile": "libs/molecules/icon-alternate/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/icon-alternate/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/icon-alternate/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/icon-alternate"],
+      "options": {
+        "jestConfig": "libs/molecules/icon-alternate/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
