@@ -1,8 +1,0 @@
-export { default as CountUpNumber } from "@watheia/molecules.count-up-number"
-export { default as DescriptionCta } from "@watheia/molecules.description-cta"
-export { default as IconAlternate } from "@watheia/molecules.icon-alternate"
-export { default as OverlappedImages } from "@watheia/molecules.overlapped-images"
-export { default as SectionHeader } from "@watheia/molecules.section-header"
-export { default as SwiperImage } from "@watheia/molecules.swiper-image"
-export { default as SwiperNumber } from "@watheia/molecules.swiper-number"
-export { default as TypedText } from "@watheia/molecules.typed-text"

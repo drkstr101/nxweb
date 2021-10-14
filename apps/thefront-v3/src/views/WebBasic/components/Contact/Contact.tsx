@@ -11,7 +11,8 @@ import {
 } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate, TypedText } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
+import TypedText from "@watheia/molecules.typed-text"
 import { CardProduct } from "@watheia/front.organisms"
 
 const FKTextField = withStyles({

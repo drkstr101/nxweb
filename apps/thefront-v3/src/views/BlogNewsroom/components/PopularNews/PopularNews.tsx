@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Button, Typography, Grid } from "@material-ui/core"
-import Image from "@watheia/atoms.image"
+import Image, { ImageProps } from "@watheia/atoms.image"
 import SectionHeader from "@watheia/molecules.section-header"
 import { CardProduct } from "@watheia/front.organisms"
 
@@ -81,7 +81,6 @@ const useStyles = makeStyles((theme) => ({
 
 const PopularNews = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
   const classes = useStyles()
-
   const theme = useTheme()
   const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true

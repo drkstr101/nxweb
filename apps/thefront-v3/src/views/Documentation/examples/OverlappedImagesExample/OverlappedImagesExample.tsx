@@ -1,7 +1,7 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { OverlappedImages } from "@watheia/front.molecules"
+import OverlappedImages from "@watheia/molecules.overlapped-images"
 
 const importCodeString = `
 import { OverlappedImages } from 'components/molecules';

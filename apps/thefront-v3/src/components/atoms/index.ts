@@ -1,6 +1,0 @@
-export { default as Image } from "@watheia/atoms.image"
-export { default as Icon } from "@watheia/atoms.icon"
-export { default as LearnMoreLink } from "@watheia/atoms.learn-more-link"
-export { default as IconText } from "@watheia/atoms.icon-text"
-export { default as DarkModeToggler } from "@watheia/atoms.dark-mode-toggler"
-export { default as ScrollTop } from "@watheia/atoms.scroll-top"

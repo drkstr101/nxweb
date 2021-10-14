@@ -3,7 +3,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 
 import { useMediaQuery, Button, Typography } from "@material-ui/core"
 import SwiperImage from "@watheia/molecules.swiper-image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { HeroShaped } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -1,12 +1,10 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { TypedText } from "@watheia/front.molecules"
+import TypedText from "@watheia/molecules.typed-text"
 
 const importCodeString = `
-import { TypedText } from 'components/molecules';
-// or
-import TypedText from 'components/molecules/TypedText';
+import TypedText from "@watheia/molecules.typed-text"
 `
 
 const dataProperties = [
@@ -28,7 +26,7 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box } from '@material-ui/core';
-import { TypedText } from 'components/molecules';
+import TypedText from "@watheia/molecules.typed-text"
 
 export default function Example() {
   return (

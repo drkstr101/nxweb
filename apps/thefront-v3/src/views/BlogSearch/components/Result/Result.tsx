@@ -13,7 +13,7 @@ import {
   Divider
 } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
-import Image from "@watheia/atoms.image"
+import Image, { ImageProps } from "@watheia/atoms.image"
 import { CardProduct, Section, SectionAlternate } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

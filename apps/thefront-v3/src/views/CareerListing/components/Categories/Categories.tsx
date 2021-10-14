@@ -3,7 +3,8 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { Grid, useMediaQuery } from "@material-ui/core"
 
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate, TypedText } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
+import TypedText from "@watheia/molecules.typed-text"
 import { CardCategory } from "@watheia/front.organisms"
 
 const useStyles = makeStyles(() => ({

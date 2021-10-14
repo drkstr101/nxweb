@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { Button, Typography } from "@material-ui/core"
 import SectionHeader from "@watheia/molecules.section-header"
-import { TypedText } from "@watheia/front.molecules"
+import TypedText from "@watheia/molecules.typed-text"
 import { HeroShaped } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Button, Typography, Grid } from "@material-ui/core"
-import Image from "@watheia/atoms.image"
+import Image, { ImageProps } from "@watheia/atoms.image"
 import DescriptionCta from "@watheia/molecules.description-cta"
 import { CardProduct } from "@watheia/front.organisms"
 

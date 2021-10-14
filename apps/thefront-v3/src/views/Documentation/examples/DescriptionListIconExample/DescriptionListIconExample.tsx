@@ -91,7 +91,7 @@ const exampleCode2 = `
 import React from 'react';
 import { Box, colors } from '@material-ui/core';
 import { DescriptionListIcon } from 'components/organisms';
-import { IconAlternate } from '@watheia/front.molecules';
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 export default function Example() {
   return (
@@ -110,7 +110,7 @@ const exampleCode3 = `
 import React from 'react';
 import { Box, colors } from '@material-ui/core';
 import { DescriptionListIcon } from 'components/organisms';
-import { IconAlternate } from '@watheia/front.molecules';
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 export default function Example() {
   return (
@@ -130,7 +130,7 @@ const exampleCode4 = `
 import React from 'react';
 import { Box, colors } from '@material-ui/core';
 import { DescriptionListIcon } from 'components/organisms';
-import { IconAlternate } from '@watheia/front.molecules';
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 export default function Example() {
   return (
