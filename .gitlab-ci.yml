@@ -18,6 +18,7 @@
 image: node:latest
 
 cache:
+  policy: pull
   paths:
     - .yarn
     - node_modules
@@ -32,6 +33,11 @@ install: # This job runs in the build stage, which runs first.
   stage: warmup
   script:
     - yarn install
+  cache:
+    policy: push
+    paths:
+      - .yarn
+      - node_modules
 
 build: # This job runs in the build stage, which runs first.
   stage: build
