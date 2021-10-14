@@ -16,78 +16,34 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@watheia/atoms.dark-mode-toggler": [
-        "libs/atoms/dark-mode-toggler/src/index.ts"
-      ],
-      "@watheia/atoms.icon": [
-        "libs/atoms/icon/src/index.ts"
-      ],
-      "@watheia/atoms.icon-text": [
-        "libs/atoms/icon-text/src/index.ts"
-      ],
-      "@watheia/atoms.image": [
-        "libs/atoms/image/src/index.ts"
-      ],
-      "@watheia/atoms.learn-more-link": [
-        "libs/atoms/learn-more-link/src/index.ts"
-      ],
-      "@watheia/atoms.scroll-top": [
-        "libs/atoms/scroll-top/src/index.ts"
-      ],
-      "@watheia/front.layouts.*": [
-        "apps/thefront-v3/src/layouts/*"
-      ],
-      "@watheia/front.organisms": [
-        "apps/thefront-v3/src/components/organisms/index.ts"
-      ],
-      "@watheia/front.views.*": [
-        "apps/thefront-v3/src/views/*/index.ts"
-      ],
-      "@watheia/layout": [
-        "libs/ui/layout/src/index.ts"
-      ],
-      "@watheia/molecules.count-up-number": [
-        "libs/molecules/count-up-number/src/index.ts"
-      ],
-      "@watheia/molecules.description-cta": [
-        "libs/molecules/description-cta/src/index.ts"
-      ],
-      "@watheia/molecules.icon-alternate": [
-        "libs/molecules/icon-alternate/src/index.ts"
-      ],
+      "@watheia/atoms.dark-mode-toggler": ["libs/atoms/dark-mode-toggler/src/index.ts"],
+      "@watheia/atoms.icon": ["libs/atoms/icon/src/index.ts"],
+      "@watheia/atoms.icon-text": ["libs/atoms/icon-text/src/index.ts"],
+      "@watheia/atoms.image": ["libs/atoms/image/src/index.ts"],
+      "@watheia/atoms.learn-more-link": ["libs/atoms/learn-more-link/src/index.ts"],
+      "@watheia/atoms.scroll-top": ["libs/atoms/scroll-top/src/index.ts"],
+      "@watheia/front.layouts.*": ["apps/thefront-v3/src/layouts/*"],
+      "@watheia/front.organisms": ["apps/thefront-v3/src/components/organisms/index.ts"],
+      "@watheia/front.views.*": ["apps/thefront-v3/src/views/*/index.ts"],
+      "@watheia/layout": ["libs/ui/layout/src/index.ts"],
+      "@watheia/molecules.count-up-number": ["libs/molecules/count-up-number/src/index.ts"],
+      "@watheia/molecules.description-cta": ["libs/molecules/description-cta/src/index.ts"],
+      "@watheia/molecules.icon-alternate": ["libs/molecules/icon-alternate/src/index.ts"],
       "@watheia/molecules.overlapped-images": [
         "libs/molecules/overlapped-images/src/index.ts"
       ],
-      "@watheia/molecules.section-header": [
-        "libs/molecules/section-header/src/index.ts"
-      ],
-      "@watheia/molecules.swiper-image": [
-        "libs/molecules/swiper-image/src/index.ts"
-      ],
-      "@watheia/molecules.swiper-number": [
-        "libs/molecules/swiper-number/src/index.ts"
-      ],
-      "@watheia/molecules.typed-text": [
-        "libs/molecules/typed-text/src/index.ts"
-      ],
-      "@watheia/theme.styles.global/*": [
-        "libs/theme/styles/global/src/*"
-      ],
-      "@watheia/theme.theme-provider": [
-        "libs/theme/theme-provider/src/index.ts"
-      ]
+      "@watheia/molecules.section-header": ["libs/molecules/section-header/src/index.ts"],
+      "@watheia/molecules.swiper-image": ["libs/molecules/swiper-image/src/index.ts"],
+      "@watheia/molecules.swiper-number": ["libs/molecules/swiper-number/src/index.ts"],
+      "@watheia/molecules.typed-text": ["libs/molecules/typed-text/src/index.ts"],
+      "@watheia/theme.styles.global/*": ["libs/theme/styles/global/src/*"],
+      "@watheia/theme.theme-provider": ["libs/theme/theme-provider/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

@@ -15,142 +15,82 @@
   }
   ```
 */
-import { InboxIcon, SparklesIcon } from "@heroicons/react/outline"
-import { features, footerNavigation, metrics } from "../lib/contants"
-import Header from "../components/Header"
+import { InboxIcon, SparklesIcon, UsersIcon, TrashIcon, PencilAltIcon, DocumentReportIcon, ReplyIcon, ChatAltIcon, HeartIcon } from "@heroicons/react/outline"
+import Layout from "@watheia/layout"
 
-const Footer = () => (
-  <footer className="bg-gray-50" aria-labelledby="footer-heading">
-    <h2 id="footer-heading" className="sr-only">
-      Footer
-    </h2>
-    <div className="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
-      <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-          <div className="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 className="text-sm font-semibold text-shark-400 tracking-wider uppercase">
-                Solutions
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.solutions.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-shark-500 hover:text-shark-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-shark-400 tracking-wider uppercase">
-                Support
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.support.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-shark-500 hover:text-shark-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 className="text-sm font-semibold text-shark-400 tracking-wider uppercase">
-                Company
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.company.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-shark-500 hover:text-shark-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-shark-400 tracking-wider uppercase">
-                Legal
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.legal.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-shark-500 hover:text-shark-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="mt-12 xl:mt-0">
-          <h3 className="text-sm font-semibold text-shark-400 tracking-wider uppercase">
-            Subscribe to our newsletter
-          </h3>
-          <p className="mt-4 text-base text-shark-500">
-            The latest news, articles, and resources, sent to your inbox weekly.
-          </p>
-          <form className="mt-4 sm:flex sm:max-w-md">
-            <label htmlFor="email-address" className="sr-only">
-              Email address
-            </label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autoComplete="email"
-              required
-              className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-shark-900 placeholder-gray-500 focus:outline-none focus:ring-aqua-500 focus:border-aqua-500 focus:placeholder-gray-400"
-              placeholder="Enter your email"
-            />
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-              <button
-                type="submit"
-                className="w-full flex items-center justify-center bg-gradient-to-r from-aqua-400 to-aqua-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-aqua-900 hover:to-aqua-700"
-              >
-                Subscribe
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
-        <div className="flex space-x-6 md:order-2">
-          {footerNavigation.social.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-shark-400 hover:text-shark-500"
-            >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>
-          ))}
-        </div>
-        <p className="mt-8 text-base text-shark-500 md:mt-0 md:order-1">
-          &copy; 2021 Watheia Labs, LLC. All rights reserved.
-        </p>
-      </div>
-    </div>
-  </footer>
-)
+export const features = [
+  {
+    name: "Unlimited Inboxes",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: InboxIcon
+  },
+  {
+    name: "Manage Team Members",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: UsersIcon
+  },
+  {
+    name: "Spam Report",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: TrashIcon
+  },
+  {
+    name: "Compose in Markdown",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: PencilAltIcon
+  },
+  {
+    name: "Team Reporting",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: DocumentReportIcon
+  },
+  {
+    name: "Saved Replies",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ReplyIcon
+  },
+  {
+    name: "Email Commenting",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ChatAltIcon
+  },
+  {
+    name: "Connect with Customers",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: HeartIcon
+  }
+]
+
+export const metrics = [
+  {
+    id: 1,
+    stat: "8K+",
+    emphasis: "Companies",
+    rest: "use laoreet amet lacus nibh integer quis."
+  },
+  {
+    id: 2,
+    stat: "25K+",
+    emphasis: "Countries around the globe",
+    rest: "lacus nibh integer quis."
+  },
+  {
+    id: 3,
+    stat: "98%",
+    emphasis: "Customer satisfaction",
+    rest: "laoreet amet lacus nibh integer quis."
+  },
+  { id: 4, stat: "12M+", emphasis: "Issues resolved", rest: "lacus nibh integer quis." }
+]
+
 
 const HeroSection = () => (
   <div className="relative">
@@ -464,17 +404,13 @@ const CTASection = () => (
 
 export default function IndexPage() {
   return (
-    <div className="bg-white">
-      <Header />
-      <main>
-        <HeroSection />
-        <LogoCloud />
-        <AlternatingFeatureSections />
-        <GradientFeatureSection />
-        <StatsSection />
-        <CTASection />
-      </main>
-      <Footer />
-    </div>
+    <Layout>
+      <HeroSection />
+      <LogoCloud />
+      <AlternatingFeatureSections />
+      <GradientFeatureSection />
+      <StatsSection />
+      <CTASection />
+    </Layout>
   )
 }
