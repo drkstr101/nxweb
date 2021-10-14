@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react"
 
-import MolecularMoleculesTypedText from "./molecular-molecules-typed-text"
+import TypedText from "./TypedText"
 
-describe("MolecularMoleculesTypedText", () => {
+describe("molecules/TypedText", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularMoleculesTypedText />)
+    const { baseElement } = render(<TypedText typedProps={{}} />)
     expect(baseElement).toBeTruthy()
   })
 })

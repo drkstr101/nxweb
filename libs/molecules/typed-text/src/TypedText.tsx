@@ -1,7 +1,7 @@
-import React from "react"
 import clsx from "clsx"
 import Typed from "react-typed"
-import { Typography } from "@material-ui/core"
+import Typography from "@material-ui/core/Typography"
+import { TypedTextProps } from "./TypedTextProps"
 
 /**
  * Component to display the typed animated texts
