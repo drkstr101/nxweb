@@ -1,6 +1,7 @@
 import React from "react"
 import { Grid, Button, colors } from "@material-ui/core"
-import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { IconAlternate } from "@watheia/front.molecules"
 import { CardBase, DescriptionListIcon } from "@watheia/front.organisms"
 
 const Process = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => (

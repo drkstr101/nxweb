@@ -12,7 +12,7 @@ import {
   TextField,
   Button
 } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   list: {

@@ -1,6 +1,6 @@
 import React from "react"
 import { Divider, Button, makeStyles, useTheme, useMediaQuery } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { SectionAlternate } from "@watheia/front.organisms"
 import { Account, Landings, Pages, Hero } from "./components"
 import { landings, pages, account } from "./data"

@@ -10,7 +10,8 @@ import {
   colors
 } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
-import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { IconAlternate } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({
   listItemAvatar: {

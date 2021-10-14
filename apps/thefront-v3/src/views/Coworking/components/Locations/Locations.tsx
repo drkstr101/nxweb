@@ -11,7 +11,8 @@ import {
   NoSsr
 } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader, SwiperImage } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { SwiperImage } from "@watheia/front.molecules"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -2,7 +2,7 @@ import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, colors } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { DescriptionListIcon, CardBase } from "@watheia/front.organisms"
 
 const Features = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {

@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { Grid, Typography, Button, useMediaQuery, colors } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardPricingStandard } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -1,7 +1,7 @@
 import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

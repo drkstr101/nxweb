@@ -9,7 +9,7 @@ import {
   Button
 } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

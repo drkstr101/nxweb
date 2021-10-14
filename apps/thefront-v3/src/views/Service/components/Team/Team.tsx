@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import { Grid, Typography, Button, Avatar } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   teamAvatar: {

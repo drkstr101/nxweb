@@ -8,7 +8,7 @@ import {
   ListItemText,
   Avatar
 } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardBase } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

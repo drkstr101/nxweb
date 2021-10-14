@@ -1,6 +1,7 @@
 import React from "react"
 import { Grid, Typography } from "@material-ui/core"
-import { SectionHeader, OverlappedImages } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { OverlappedImages } from "@watheia/front.molecules"
 
 const Spaces = ({ className, ...rest }: ViewComponentProps): JSX.Element => (
   <div className={className} {...rest}>

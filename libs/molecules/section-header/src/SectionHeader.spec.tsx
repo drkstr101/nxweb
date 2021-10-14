@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react"
 
-import MolecularMoleculesSectionHeader from "./molecular-molecules-section-header"
+import SectionHeader from "./SectionHeader"
 
 describe("MolecularMoleculesSectionHeader", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularMoleculesSectionHeader />)
+    const { baseElement } = render(<SectionHeader title="Section Header" />)
     expect(baseElement).toBeTruthy()
   })
 })

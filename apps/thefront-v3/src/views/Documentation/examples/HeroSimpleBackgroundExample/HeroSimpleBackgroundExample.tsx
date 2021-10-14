@@ -2,7 +2,7 @@ import React from "react"
 import { Box, Button } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { HeroSimpleBackground } from "@watheia/front.organisms"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section } from "@watheia/front.organisms"
 
 const importCodeString = `

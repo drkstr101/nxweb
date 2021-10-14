@@ -4,7 +4,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { FormControl, OutlinedInput, InputAdornment, Button } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

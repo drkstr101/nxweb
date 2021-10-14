@@ -3,7 +3,7 @@ import { useTheme } from "@material-ui/core/styles"
 
 import { Grid, Typography } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
 const Advantages = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {

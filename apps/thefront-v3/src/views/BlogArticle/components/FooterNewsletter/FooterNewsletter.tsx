@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { colors, Grid, FormControl, OutlinedInput, InputAdornment } from "@material-ui/core"
 import Icon from "@watheia/atoms.icon"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   textWhite: {

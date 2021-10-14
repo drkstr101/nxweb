@@ -1,7 +1,7 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const Story = ({ className, ...rest }: ViewComponentProps): JSX.Element => {
   const theme = useTheme()

@@ -3,7 +3,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Button } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   listGrid: {

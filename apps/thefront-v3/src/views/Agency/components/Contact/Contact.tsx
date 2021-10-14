@@ -1,7 +1,7 @@
 import React from "react"
 import clsx from "clsx"
 import { Button } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const Contact = ({ className, ...rest }: ViewComponentProps): JSX.Element => {
   return (

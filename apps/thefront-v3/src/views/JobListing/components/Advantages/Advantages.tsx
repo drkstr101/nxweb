@@ -2,7 +2,8 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Button } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { IconAlternate } from "@watheia/front.molecules"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -3,7 +3,8 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import { Grid, Typography, colors } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { IconAlternate } from "@watheia/front.molecules"
 import { CardBase, DescriptionListIcon } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

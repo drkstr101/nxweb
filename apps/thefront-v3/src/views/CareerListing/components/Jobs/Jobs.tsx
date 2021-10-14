@@ -3,7 +3,7 @@ import { useTheme } from "@material-ui/core/styles"
 import { Grid, Button, useMediaQuery } from "@material-ui/core"
 
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardJob } from "@watheia/front.organisms"
 
 const Jobs = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
