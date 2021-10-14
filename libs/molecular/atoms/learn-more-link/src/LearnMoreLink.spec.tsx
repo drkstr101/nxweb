@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react"
 
-import MolecularAtomsLink from "./molecular-atoms-link"
+import LearnMoreLink from "./LearnMoreLink"
 
-describe("MolecularAtomsLink", () => {
+describe("atoms/LearnMoreLink", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularAtomsLink />)
+    const { baseElement } = render(<LearnMoreLink title="Learn More" />)
     expect(baseElement).toBeTruthy()
   })
 })
