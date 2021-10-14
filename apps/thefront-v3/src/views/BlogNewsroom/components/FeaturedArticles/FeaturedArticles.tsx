@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Button, Typography, Grid } from "@material-ui/core"
 import Image from "@watheia/molecular.atoms.image"
-import { DescriptionCta } from "@watheia/front.molecules"
+import DescriptionCta from "@watheia/molecular.molecules.description-cta"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

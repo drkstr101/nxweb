@@ -12,7 +12,8 @@ import {
   ListItemAvatar,
   Avatar
 } from "@material-ui/core"
-import { SectionHeader, DescriptionCta } from "@watheia/front.molecules"
+import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import { SectionHeader } from "@watheia/front.molecules"
 import { Section, CardBase } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

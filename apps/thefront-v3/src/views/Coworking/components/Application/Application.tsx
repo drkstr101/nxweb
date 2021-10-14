@@ -1,8 +1,8 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
-
 import { useMediaQuery, Button, Typography } from "@material-ui/core"
-import { SectionHeader, DescriptionCta } from "@watheia/front.molecules"
+import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import { SectionHeader } from "@watheia/front.molecules"
 
 const Application = ({ className, ...rest }: ViewComponentProps): JSX.Element => {
   const theme = useTheme()

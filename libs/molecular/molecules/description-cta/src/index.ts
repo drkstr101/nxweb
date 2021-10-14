@@ -1,1 +1,2 @@
-export * from "./lib/molecular-molecules-description-cta"
+export type { DescriptionCtaProps } from "./DescriptionCtaProps"
+export { default } from "./DescriptionCta"

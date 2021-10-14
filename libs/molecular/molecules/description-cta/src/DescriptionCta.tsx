@@ -1,7 +1,7 @@
-import React from "react"
 import clsx from "clsx"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Typography } from "@material-ui/core"
+import { DescriptionCtaProps } from "./DescriptionCtaProps"
 
 /**
  * Component to display the description with CTA's
