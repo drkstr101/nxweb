@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid } from "@material-ui/core"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { DescriptionListIcon, CardJobMinimal } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

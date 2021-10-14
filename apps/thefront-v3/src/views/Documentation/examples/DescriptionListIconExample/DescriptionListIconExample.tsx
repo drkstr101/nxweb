@@ -3,7 +3,7 @@ import { Box, colors } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 import Icon from "@watheia/atoms.icon"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 const importCodeString = `
 import { DescriptionListIcon } from 'components/organisms';

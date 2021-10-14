@@ -2,7 +2,7 @@ import React from "react"
 import { Box, colors, Grid } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { CardCategory } from "@watheia/front.organisms"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 const importCodeString = `
 import { CardCategory } from 'components/organisms';

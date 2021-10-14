@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Button } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -12,7 +12,7 @@ import {
   ListItemText
 } from "@material-ui/core"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 const useStyles = makeStyles(() => ({
   swiperContainer: {

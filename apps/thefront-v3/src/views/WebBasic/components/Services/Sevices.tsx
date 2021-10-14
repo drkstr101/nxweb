@@ -1,7 +1,7 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, colors } from "@material-ui/core"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
 const Services = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {

@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { colors, List, ListItem, ListItemAvatar, ListItemText } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { HeroShaped } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

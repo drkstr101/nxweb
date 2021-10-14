@@ -13,7 +13,7 @@ import {
 } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 
 const useStyles = makeStyles((theme) => ({
   listItemAvatar: {

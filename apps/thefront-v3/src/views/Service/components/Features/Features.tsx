@@ -4,7 +4,7 @@ import { useMediaQuery } from "@material-ui/core"
 import { Grid, Button, Typography, colors } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
 import SectionHeader from "@watheia/molecules.section-header"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { CardBase, DescriptionListIcon } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

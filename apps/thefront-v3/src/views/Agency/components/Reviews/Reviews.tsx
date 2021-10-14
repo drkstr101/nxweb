@@ -3,7 +3,7 @@ import clsx from "clsx"
 import Swiper from "swiper"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors } from "@material-ui/core"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import SectionHeader from "@watheia/molecules.section-header"
 import { CardReview } from "@watheia/front.organisms"
 

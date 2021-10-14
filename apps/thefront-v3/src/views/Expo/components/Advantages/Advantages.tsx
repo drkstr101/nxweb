@@ -1,6 +1,6 @@
 import React from "react"
 import { Grid, colors } from "@material-ui/core"
-import { IconAlternate } from "@watheia/front.molecules"
+import IconAlternate from "@watheia/molecules.icon-alternate"
 import { DescriptionListIcon } from "@watheia/front.organisms"
 
 const Advantages = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => (
