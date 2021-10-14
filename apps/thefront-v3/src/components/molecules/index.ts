@@ -1,5 +1,5 @@
 export { default as CountUpNumber } from "@watheia/molecules.count-up-number"
-export { default as SectionHeader } from "./SectionHeader"
+export { default as SectionHeader } from "@watheia/molecules.section-header"
 export { default as IconAlternate } from "@watheia/molecules.icon-alternate"
 export { default as SwiperImage } from "./SwiperImage"
 export { default as DescriptionCta } from "@watheia/molecules.description-cta"

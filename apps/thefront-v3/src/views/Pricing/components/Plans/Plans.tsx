@@ -2,7 +2,7 @@ import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const Plans = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
   const theme = useTheme()

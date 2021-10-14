@@ -12,7 +12,7 @@ import {
 import Icon from "@watheia/atoms.icon"
 import IconText from "@watheia/atoms.icon-text"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   root: {

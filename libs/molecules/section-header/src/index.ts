@@ -1,1 +1,2 @@
-export * from "./lib/molecular-molecules-section-header"
+export type { SectionHeaderProps } from "./SectionHeaderProps"
+export { default } from "./SectionHeader"

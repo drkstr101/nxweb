@@ -1,6 +1,6 @@
 import React from "react"
 import { Grid } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardBase, ContactForm } from "@watheia/front.organisms"
 
 const Contact = ({ className, ...rest }: ViewComponentProps): JSX.Element => (

@@ -3,7 +3,7 @@ import { Box, Button } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { HeroShaped } from "@watheia/front.organisms"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const importCodeString = `
 import { HeroShaped } from 'components/organisms';

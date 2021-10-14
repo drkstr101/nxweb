@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { List, ListItem, ListItemAvatar, ListItemText, Avatar } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { HeroShaped, Map } from "@watheia/front.organisms"
 
 const useStyles = makeStyles(() => ({

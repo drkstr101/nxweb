@@ -1,5 +1,5 @@
 import React from "react"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Accordion } from "@watheia/front.organisms"
 
 const Faq = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => (

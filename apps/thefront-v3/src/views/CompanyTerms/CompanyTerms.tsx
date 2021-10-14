@@ -13,7 +13,7 @@ import {
   Avatar
 } from "@material-ui/core"
 import DescriptionCta from "@watheia/molecules.description-cta"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section, CardBase } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

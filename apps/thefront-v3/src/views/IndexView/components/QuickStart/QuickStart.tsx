@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { NoSsr, Grid, Button, useMediaQuery, Typography } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import SyntaxHighlighter from "react-syntax-highlighter"
 import { vs2015 } from "react-syntax-highlighter/dist/cjs/styles/hljs"
 

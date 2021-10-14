@@ -1,6 +1,6 @@
 import React from "react"
 import { Button, Typography } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { Section, HeroSimpleBackground } from "@watheia/front.organisms"
 
 const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => (

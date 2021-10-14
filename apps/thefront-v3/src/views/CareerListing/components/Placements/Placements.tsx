@@ -2,7 +2,7 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Typography } from "@material-ui/core"
 
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import CountUpNumber from "@watheia/molecules.count-up-number"
 
 const useStyles = makeStyles((theme) => ({

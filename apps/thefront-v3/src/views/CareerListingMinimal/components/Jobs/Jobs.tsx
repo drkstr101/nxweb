@@ -1,7 +1,7 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Button } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardJobMinimal } from "@watheia/front.organisms"
 
 const Jobs = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {

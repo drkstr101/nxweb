@@ -3,7 +3,7 @@ import { useTheme } from "@material-ui/core/styles"
 
 import { useMediaQuery, Grid, Button } from "@material-ui/core"
 import IconText from "@watheia/atoms.icon-text"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const Props = ({ data, className, ...rest }: ViewComponentProps): JSX.Element => {
   const theme = useTheme()

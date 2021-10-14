@@ -4,7 +4,7 @@ import Swiper from "swiper"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Card, CardMedia, CardContent, Typography } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   articleDate: {

@@ -1,6 +1,6 @@
 import React from "react"
 import { makeStyles, colors, List, Typography, Box } from "@material-ui/core"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import IconText from "@watheia/atoms.icon-text"
 
 const useStyles = makeStyles((theme) => ({

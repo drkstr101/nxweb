@@ -2,7 +2,8 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Button, Typography, colors } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
-import { SectionHeader, IconAlternate } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
+import { IconAlternate } from "@watheia/front.molecules"
 import { CardReview } from "@watheia/front.organisms"
 
 const useStyles = makeStyles(() => ({

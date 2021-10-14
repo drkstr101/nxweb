@@ -7,7 +7,7 @@ import { Section } from "@watheia/front.organisms"
 import { Contact, Locations, Story, Team } from "./components"
 
 import { team } from "./data"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const useStyles = makeStyles((theme) => ({
   root: {

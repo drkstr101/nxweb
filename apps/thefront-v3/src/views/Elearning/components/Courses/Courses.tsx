@@ -4,7 +4,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, Typography, colors, Avatar, NoSsr } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

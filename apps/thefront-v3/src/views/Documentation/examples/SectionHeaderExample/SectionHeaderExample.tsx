@@ -2,7 +2,7 @@ import React from "react"
 import { Box, Typography, Button } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import Image from "@watheia/atoms.image"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 
 const importCodeString = `
 import { SectionHeader } from 'components/molecules';

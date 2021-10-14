@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { Button } from "@material-ui/core"
 import Image from "@watheia/atoms.image"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
-import { SectionHeader } from "@watheia/front.molecules"
+import SectionHeader from "@watheia/molecules.section-header"
 import { HeroShaped } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => {
