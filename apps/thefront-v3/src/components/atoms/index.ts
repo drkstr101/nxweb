@@ -1,6 +1,6 @@
 export { default as Image } from "@watheia/molecular.atoms.image"
 export { default as Icon } from "@watheia/molecular.atoms.icon"
-export { default as LearnMoreLink } from "@watheia/molecular.atoms.link"
+export { default as LearnMoreLink } from "@watheia/molecular.atoms.learn-more-link"
 export { default as IconText } from "@watheia/molecular.atoms.icon-text"
 export { default as DarkModeToggler } from "@watheia/molecular.atoms.dark-mode-toggler"
 export { default as ScrollTop } from "@watheia/molecular.atoms.scroll-top"

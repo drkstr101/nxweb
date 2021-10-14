@@ -1,1 +1,2 @@
-export * from "./lib/molecular-molecules-count-up-number"
+export type { CountUpNumberProps } from "./CountUpNumberProps"
+export { default } from "./CountUpNumber"

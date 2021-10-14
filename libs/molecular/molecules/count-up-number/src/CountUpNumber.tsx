@@ -3,6 +3,7 @@ import VisibilitySensor from "react-visibility-sensor"
 import CountUp from "react-countup"
 import clsx from "clsx"
 import { Typography } from "@material-ui/core"
+import { CountUpNumberProps } from "./CountUpNumberProps"
 
 /**
  * Component to display the Count Up Numbers
