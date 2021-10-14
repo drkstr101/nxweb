@@ -1,7 +1,7 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
+import LearnMoreLink from "@watheia/atoms.learn-more-link"
 
 const importCodeString = `
 import { LearnMoreLink } from '@watheia/front.atoms';

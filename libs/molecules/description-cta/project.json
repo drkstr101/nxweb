@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/description-cta",
+  "sourceRoot": "libs/molecules/description-cta/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/description-cta",
+        "tsConfig": "libs/molecules/description-cta/tsconfig.lib.json",
+        "project": "libs/molecules/description-cta/package.json",
+        "entryFile": "libs/molecules/description-cta/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/description-cta/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/description-cta/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/description-cta"],
+      "options": {
+        "jestConfig": "libs/molecules/description-cta/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

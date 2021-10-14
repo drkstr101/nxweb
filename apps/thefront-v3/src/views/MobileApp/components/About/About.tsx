@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery, Grid, colors, Typography, Divider } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 import { HeroShaped, Section, CardBase } from "@watheia/front.organisms"
 

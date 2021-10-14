@@ -1,0 +1,42 @@
+{
+  "root": "libs/atoms/icon-text",
+  "sourceRoot": "libs/atoms/icon-text/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/atoms/icon-text",
+        "tsConfig": "libs/atoms/icon-text/tsconfig.lib.json",
+        "project": "libs/atoms/icon-text/package.json",
+        "entryFile": "libs/atoms/icon-text/src/index.ts",
+        "external": ["react/jsx-runtime", "@emotion/styled/base"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/atoms/icon-text/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/atoms/icon-text/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/atoms/icon-text"],
+      "options": {
+        "jestConfig": "libs/atoms/icon-text/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

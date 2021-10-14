@@ -1,10 +1,10 @@
 import React from "react"
 import { Box, Button } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import DescriptionCta from "@watheia/molecules.description-cta"
 
 const importCodeString = `
-import DescriptionCta from "@watheia/molecular.molecules.description-cta";
+import DescriptionCta from "@watheia/molecules.description-cta";
 `
 
 const dataProperties = [
@@ -86,7 +86,7 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box, Button } from '@material-ui/core';
-import DescriptionCta from "@watheia/molecular.molecules.description-cta";
+import DescriptionCta from "@watheia/molecules.description-cta";
 
 export default function Example() {
   return (

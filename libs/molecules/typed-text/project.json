@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/typed-text",
+  "sourceRoot": "libs/molecules/typed-text/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/typed-text",
+        "tsConfig": "libs/molecules/typed-text/tsconfig.lib.json",
+        "project": "libs/molecules/typed-text/package.json",
+        "entryFile": "libs/molecules/typed-text/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/typed-text/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/typed-text/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/typed-text"],
+      "options": {
+        "jestConfig": "libs/molecules/typed-text/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

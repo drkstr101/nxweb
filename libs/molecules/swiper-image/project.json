@@ -1,0 +1,42 @@
+{
+  "root": "libs/molecules/swiper-image",
+  "sourceRoot": "libs/molecules/swiper-image/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecules/swiper-image",
+        "tsConfig": "libs/molecules/swiper-image/tsconfig.lib.json",
+        "project": "libs/molecules/swiper-image/package.json",
+        "entryFile": "libs/molecules/swiper-image/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecules/swiper-image/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/molecules/swiper-image/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecules/swiper-image"],
+      "options": {
+        "jestConfig": "libs/molecules/swiper-image/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

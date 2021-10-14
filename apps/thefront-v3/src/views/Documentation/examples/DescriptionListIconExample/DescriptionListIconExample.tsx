@@ -2,7 +2,7 @@ import React from "react"
 import { Box, colors } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { DescriptionListIcon } from "@watheia/front.organisms"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { IconAlternate } from "@watheia/front.molecules"
 
 const importCodeString = `
@@ -72,7 +72,7 @@ const exampleCode1 = `
 import React from 'react';
 import { Box, colors } from '@material-ui/core';
 import { DescriptionListIcon } from 'components/organisms';
-import Icon from "@watheia/molecular.atoms.icon";
+import Icon from "@watheia/atoms.icon";
 
 export default function Example() {
   return (

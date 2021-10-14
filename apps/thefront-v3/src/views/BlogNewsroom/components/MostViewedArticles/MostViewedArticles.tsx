@@ -2,9 +2,9 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import { colors, Button, Typography, Grid } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
-import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import Image from "@watheia/atoms.image"
+import LearnMoreLink from "@watheia/atoms.learn-more-link"
+import DescriptionCta from "@watheia/molecules.description-cta"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -8,7 +8,7 @@ import {
   Typography,
   Button
 } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 
 const useStyles = makeStyles((theme) => ({
   folioItem: {

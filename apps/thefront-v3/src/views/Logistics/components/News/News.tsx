@@ -9,7 +9,7 @@ import {
   CardContent,
   Typography
 } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardBase } from "@watheia/front.organisms"
 

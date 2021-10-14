@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { Grid, Button, useMediaQuery } from "@material-ui/core"
-import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
+import LearnMoreLink from "@watheia/atoms.learn-more-link"
 import { SectionHeader, TypedText } from "@watheia/front.molecules"
 import { CardJobCompany } from "@watheia/front.organisms"
 

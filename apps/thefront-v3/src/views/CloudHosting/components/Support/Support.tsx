@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { Grid, useMediaQuery, colors } from "@material-ui/core"
-import LearnMoreLink from "@watheia/molecular.atoms.learn-more-link"
+import LearnMoreLink from "@watheia/atoms.learn-more-link"
 import { SectionHeader } from "@watheia/front.molecules"
 
 const useStyles = makeStyles((theme) => ({

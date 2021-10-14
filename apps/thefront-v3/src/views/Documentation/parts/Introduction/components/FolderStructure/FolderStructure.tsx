@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, colors, List, Typography, Box } from "@material-ui/core"
 import { SectionHeader } from "@watheia/front.molecules"
-import IconText from "@watheia/molecular.atoms.icon-text"
+import IconText from "@watheia/atoms.icon-text"
 
 const useStyles = makeStyles((theme) => ({
   fontWeightBold: {

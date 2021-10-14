@@ -12,7 +12,7 @@ import {
   ListItemAvatar,
   Avatar
 } from "@material-ui/core"
-import DescriptionCta from "@watheia/molecular.molecules.description-cta"
+import DescriptionCta from "@watheia/molecules.description-cta"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardBase } from "@watheia/front.organisms"
 

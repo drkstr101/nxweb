@@ -1,0 +1,42 @@
+{
+  "root": "libs/atoms/learn-more-link",
+  "sourceRoot": "libs/atoms/learn-more-link/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/atoms/learn-more-link",
+        "tsConfig": "libs/atoms/learn-more-link/tsconfig.lib.json",
+        "project": "libs/atoms/learn-more-link/package.json",
+        "entryFile": "libs/atoms/learn-more-link/src/index.ts",
+        "external": ["react/jsx-runtime", "@emotion/styled/base"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/atoms/learn-more-link/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/atoms/learn-more-link/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/atoms/learn-more-link"],
+      "options": {
+        "jestConfig": "libs/atoms/learn-more-link/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

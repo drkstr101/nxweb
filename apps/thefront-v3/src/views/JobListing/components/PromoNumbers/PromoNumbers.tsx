@@ -1,9 +1,9 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Button } from "@material-ui/core"
-import Image from "@watheia/molecular.atoms.image"
+import Image from "@watheia/atoms.image"
 import { SectionHeader } from "@watheia/front.molecules"
-import CountUpNumber from "@watheia/molecular.molecules.count-up-number"
+import CountUpNumber from "@watheia/molecules.count-up-number"
 import { CardBase } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

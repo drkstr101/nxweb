@@ -1,0 +1,42 @@
+{
+  "root": "libs/atoms/icon",
+  "sourceRoot": "libs/atoms/icon/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/atoms/icon",
+        "tsConfig": "libs/atoms/icon/tsconfig.lib.json",
+        "project": "libs/atoms/icon/package.json",
+        "entryFile": "libs/atoms/icon/src/index.ts",
+        "external": ["react/jsx-runtime", "@emotion/styled/base"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/atoms/icon/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/atoms/icon/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/atoms/icon"],
+      "options": {
+        "jestConfig": "libs/atoms/icon/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

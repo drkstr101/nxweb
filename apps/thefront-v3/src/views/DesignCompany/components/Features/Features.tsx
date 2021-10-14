@@ -3,7 +3,7 @@ import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 
 import { Grid } from "@material-ui/core"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardBase, DescriptionListIcon } from "@watheia/front.organisms"
 

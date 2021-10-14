@@ -2,7 +2,7 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import Swiper from "swiper"
-import Icon from "@watheia/molecular.atoms.icon"
+import Icon from "@watheia/atoms.icon"
 import { SectionHeader } from "@watheia/front.molecules"
 import { CardReview } from "@watheia/front.organisms"
 
