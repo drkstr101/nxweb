@@ -39,6 +39,27 @@
       "@watheia/molecular.atoms.scroll-top": [
         "libs/molecular/atoms/scroll-top/src/index.ts"
       ],
+      "@watheia/molecular.molecules.count-up-number": [
+        "libs/molecular/molecules/count-up-number/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.description-cta": [
+        "libs/molecular/molecules/description-cta/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.overlaped-images": [
+        "libs/molecular/molecules/overlaped-images/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.section-header": [
+        "libs/molecular/molecules/section-header/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.swiper-image": [
+        "libs/molecular/molecules/swiper-image/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.swiper-number": [
+        "libs/molecular/molecules/swiper-number/src/index.ts"
+      ],
+      "@watheia/molecular.molecules.typed-text": [
+        "libs/molecular/molecules/typed-text/src/index.ts"
+      ],
       "@watheia/theme.styles.global/*": ["libs/theme/styles/global/src/*"],
       "@watheia/theme.theme-provider": ["libs/theme/theme-provider/src/index.ts"]
     }

@@ -1,0 +1,44 @@
+{
+  "root": "libs/molecular/molecules/overlaped-images",
+  "sourceRoot": "libs/molecular/molecules/overlaped-images/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/molecular/molecules/overlaped-images",
+        "tsConfig": "libs/molecular/molecules/overlaped-images/tsconfig.lib.json",
+        "project": "libs/molecular/molecules/overlaped-images/package.json",
+        "entryFile": "libs/molecular/molecules/overlaped-images/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/molecular/molecules/overlaped-images/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/molecular/molecules/overlaped-images/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/molecular/molecules/overlaped-images"],
+      "options": {
+        "jestConfig": "libs/molecular/molecules/overlaped-images/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
