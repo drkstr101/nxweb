@@ -1,1 +1,2 @@
-export * from "./lib/molecular-molecules-swiper-number"
+export type { NumberProps, SwiperNumberProps } from "./SwiperNumberProps"
+export { default } from "./SwiperNumber"

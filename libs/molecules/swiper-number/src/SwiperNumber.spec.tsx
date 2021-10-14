@@ -1,10 +1,11 @@
 import { render } from "@testing-library/react"
 
-import MolecularMoleculesSwiperNumber from "./molecular-molecules-swiper-number"
+import SwiperNumber from "./SwiperNumber"
 
 describe("MolecularMoleculesSwiperNumber", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<MolecularMoleculesSwiperNumber />)
+    const items = [{ number: 9, title: "Title" }]
+    const { baseElement } = render(<SwiperNumber items={items} />)
     expect(baseElement).toBeTruthy()
   })
 })
