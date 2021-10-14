@@ -61,8 +61,13 @@ test: # This job runs in the test stage.
   artifacts:
     untracked: false
     expire_in: 30 days
+    when: always
+    reports:
+      junit:
+        - test-report.xml
     paths:
       - coverage
+      - test-report.xml
 
 lint: # This job also runs in the test stage.
   needs: [install]

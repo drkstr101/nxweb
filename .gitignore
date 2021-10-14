@@ -63,3 +63,4 @@ prisma/dev.db*
 # Generated Docusaurus files
 .docusaurus/
 .cache-loader/
+/test-report.xml

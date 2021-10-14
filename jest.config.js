@@ -2,7 +2,7 @@ const { getJestProjects } = require("@nrwl/jest")
 
 module.exports = {
   projects: getJestProjects(),
-  collectCoverageFrom: ["**/*.{js,jsx,ts,tsx}", "!**/*.d.ts", "!**/node_modules/**"],
+  collectCoverageFrom: ["**/*.{js,jsx,ts,tsx}", "!**/*.d.ts", "!**/node_modules/**", "!**/index.{js,ts}"],
   moduleNameMapper: {
     /* Handle CSS imports (with CSS modules)
     https://jestjs.io/docs/webpack#mocking-css-modules */
@@ -15,10 +15,11 @@ module.exports = {
     https://jestjs.io/docs/webpack#handling-static-assets */
     "^.+\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/__mocks__/fileMock.js",
 
-    "^@watheia/(w+)$": "libs/$1/src/index.ts",
-    "^@waweb/assets.images/(.*)": "libs/assets/src/images/$1",
-    "^@waweb/assets.styles/(.*)": "libs/assets/src/styles/$1"
+    // "^@watheia/(w+)$": "libs/$1/src/index.ts",
+    // "^@waweb/assets.images/(.*)": "libs/assets/src/images/$1",
+    // "^@waweb/assets.styles/(.*)": "libs/assets/src/styles/$1"
   },
+  testResultsProcessor: "<rootDir>/node_modules/jest-junit-reporter",
   testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
   testEnvironment: "jsdom",
   transform: {

@@ -12016,6 +12016,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"jest-junit-reporter@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "jest-junit-reporter@npm:1.1.0"
+  dependencies:
+    xml: ^1.0.1
+  checksum: 265130d8179b5a6e51ca55547297d07f147ceeead5e3ea44d19db7b15df2259559e49ae3dceb008367ceb23282f36dfcb1a92df74bf359a3ef8f8a9ebcb5dbe2
+  languageName: node
+  linkType: hard
+
 "jest-leak-detector@npm:^27.2.5":
   version: 27.2.5
   resolution: "jest-leak-detector@npm:27.2.5"
@@ -14889,6 +14898,7 @@ fsevents@^1.2.7:
     eslint-plugin-react-hooks: 4.2.0
     jarallax: ^1.12.7
     jest: 27.2.5
+    jest-junit-reporter: ^1.1.0
     leaflet: ^1.7.1
     next: 11.1.2
     nprogress: ^0.2.0
@@ -21961,6 +21971,13 @@ typescript@~4.3.5:
   version: 3.0.0
   resolution: "xml-name-validator@npm:3.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fxml-name-validator%2F-%2Fxml-name-validator-3.0.0.tgz"
   checksum: b3ac459afed783c285bb98e4960bd1f3ba12754fd4f2320efa0f9181ca28928c53cc75ca660d15d205e81f92304419afe94c531c7cfb3e0649aa6d140d53ecb0
+  languageName: node
+  linkType: hard
+
+"xml@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "xml@npm:1.0.1"
+  checksum: 11b5545ef3f8fec3fa29ce251f50ad7b6c97c103ed4d851306ec23366f5fa4699dd6a942262df52313a0cd1840ab26256da253c023bad3309d8ce46fe6020ca0
   languageName: node
   linkType: hard
 
