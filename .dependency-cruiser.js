@@ -13,26 +13,26 @@ module.exports = {
         circular: true
       }
     },
-    {
-      name: "no-orphans",
-      comment:
-        "This is an orphan module - it's likely not used (anymore?). Either use it or " +
-        "remove it. If it's logical this module is an orphan (i.e. it's a config file), " +
-        "add an exception for it in your dependency-cruiser configuration. By default " +
-        "this rule does not scrutinize dotfiles (e.g. .eslintrc.js), TypeScript declaration " +
-        "files (.d.ts), tsconfig.json and some of the babel and webpack configs.",
-      severity: "warn",
-      from: {
-        orphan: true,
-        pathNot: [
-          "(^|/)\\.[^/]+\\.(js|cjs|mjs|ts|json)$", // dot files
-          "\\.d\\.ts$", // TypeScript declaration files
-          "(^|/)tsconfig\\.json$", // TypeScript config
-          "(^|/)(babel|webpack)\\.config\\.(js|cjs|mjs|ts|json)$" // other configs
-        ]
-      },
-      to: {}
-    },
+    // {
+    //   name: "no-orphans",
+    //   comment:
+    //     "This is an orphan module - it's likely not used (anymore?). Either use it or " +
+    //     "remove it. If it's logical this module is an orphan (i.e. it's a config file), " +
+    //     "add an exception for it in your dependency-cruiser configuration. By default " +
+    //     "this rule does not scrutinize dotfiles (e.g. .eslintrc.js), TypeScript declaration " +
+    //     "files (.d.ts), tsconfig.json and some of the babel and webpack configs.",
+    //   severity: "warn",
+    //   from: {
+    //     orphan: true,
+    //     pathNot: [
+    //       "(^|/)\\.[^/]+\\.(js|cjs|mjs|ts|json)$", // dot files
+    //       "\\.d\\.ts$", // TypeScript declaration files
+    //       "(^|/)tsconfig\\.json$", // TypeScript config
+    //       "(^|/)(babel|webpack)\\.config\\.(js|cjs|mjs|ts|json)$" // other configs
+    //     ]
+    //   },
+    //   to: {}
+    // },
     {
       name: "no-deprecated-core",
       comment:
@@ -182,10 +182,14 @@ module.exports = {
        - dynamic: a boolean indicating whether to ignore dynamic (true) or static (false) dependencies.
           leave out if you want to exclude neither (recommended!)
     */
-    // exclude : {
-    //   path: '',
-    //   dynamic: true
-    // },
+    exclude: {
+      path: [
+        "^jest\\.config$",
+        "^jest\\.setup\\.js$",
+        "^\\.yarn$"
+      ],
+      //   dynamic: true
+    },
 
     /* pattern specifying which files to include (regular expression)
        dependency-cruiser will skip everything not matching this pattern

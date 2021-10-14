@@ -5,8 +5,6 @@ import Icon from "@watheia/atoms.icon"
 
 const importCodeString = `
 import Icon from "@watheia/atoms.icon";
-// or
-import Icon from 'components/atoms/Icon';
 `
 
 const dataProperties = [
