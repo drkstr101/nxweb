@@ -3087,26 +3087,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-types/button@npm:3.4.1":
-  version: 3.4.1
-  resolution: "@react-types/button@npm:3.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-types%2Fbutton%2F-%2Fbutton-3.4.1.tgz"
-  dependencies:
-    "@react-types/shared": ^3.8.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0-rc.1
-  checksum: 3d5c05ce228117b2c57085e9d2a5827bb4f2c5a6303902faf355495badd69fcbe751963be2266c7f79ba04681c98e0ac6f087aab3554089a5fd582493f21d03f
-  languageName: node
-  linkType: hard
-
-"@react-types/shared@npm:3.9.0, @react-types/shared@npm:^3.8.0":
-  version: 3.9.0
-  resolution: "@react-types/shared@npm:3.9.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-types%2Fshared%2F-%2Fshared-3.9.0.tgz"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0-rc.1
-  checksum: 0be11ba4234767d47707dff8601605f46bfd9e3e07dcd3213119517f9a627cca4b71e9030478d3941241d8a6be8b8bc00e92278342daad8f7397bc9eee290f1c
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-babel@npm:^5.3.0":
   version: 5.3.0
   resolution: "@rollup/plugin-babel@npm:5.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40rollup%2Fplugin-babel%2F-%2Fplugin-babel-5.3.0.tgz"
@@ -14871,8 +14851,6 @@ fsevents@^1.2.7:
     "@nrwl/workspace": 12.10.0
     "@prisma/client": 3.2.1
     "@reach/skip-nav": ^0.16.0
-    "@react-types/button": 3.4.1
-    "@react-types/shared": 3.9.0
     "@supabase/supabase-js": ^1.24.0
     "@supabase/ui": ^0.35.0
     "@tailwindcss/aspect-ratio": ^0.3.0
