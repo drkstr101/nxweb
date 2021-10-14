@@ -2,7 +2,7 @@ import React from "react"
 import { Box, Grid, Typography } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
 import { CardProduct } from "@watheia/front.organisms"
-import { SwiperImage } from "@watheia/front.molecules"
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const importCodeString = `
 import { CardProduct } from 'components/organisms';
@@ -77,7 +77,7 @@ const exampleCode1 = `
 import React from 'react';
 import { Box, Grid, Typography } from '@material-ui/core';
 import { CardProduct } from 'components/organisms';
-import { SwiperImage } from 'components/molecules';
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const item = {
   images: [{
@@ -134,7 +134,7 @@ const exampleCode2 = `
 import React from 'react';
 import { Box, Grid, Typography } from '@material-ui/core';
 import { CardProduct } from 'components/organisms';
-import { SwiperImage } from 'components/molecules';
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const item = {
   images: [{
@@ -251,7 +251,7 @@ const exampleCode4 = `
 import React from 'react';
 import { Box, Grid, Typography } from '@material-ui/core';
 import { CardProduct } from 'components/organisms';
-import { SwiperImage } from 'components/molecules';
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const item = {
   images: [{
@@ -310,7 +310,7 @@ const exampleCode5 = `
 import React from 'react';
 import { Box, Grid, Typography } from '@material-ui/core';
 import { CardProduct } from 'components/organisms';
-import { SwiperImage } from 'components/molecules';
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const item = {
   images: [{

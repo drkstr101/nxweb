@@ -1,10 +1,11 @@
-import React from "react"
+import { useEffect } from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import Swiper from "swiper"
 
 import { cardShadow } from "@watheia/theme.theme-provider"
 import Image from "@watheia/atoms.image"
+import { SwiperImageProps } from "./SwiperImageProps"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -63,7 +64,7 @@ const SwiperImage = ({
 }: SwiperImageProps): JSX.Element => {
   const classes = useStyles()
 
-  React.useEffect(() => {
+  useEffect(() => {
     new Swiper(".swiper-container", {
       slidesPerView: 1,
       spaceBetween: 0,

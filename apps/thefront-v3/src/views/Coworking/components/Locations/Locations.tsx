@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core"
 import LearnMoreLink from "@watheia/atoms.learn-more-link"
 import SectionHeader from "@watheia/molecules.section-header"
-import { SwiperImage } from "@watheia/front.molecules"
+import SwiperImage from "@watheia/molecules.swiper-image"
 import { CardProduct } from "@watheia/front.organisms"
 
 const useStyles = makeStyles((theme) => ({

@@ -1,1 +1,2 @@
-export * from "./lib/molecular-molecules-swiper-image"
+export type { SwiperImageProps } from "./SwiperImageProps"
+export { default } from "./SwiperImage"

@@ -1,12 +1,10 @@
 import React from "react"
 import { Box } from "@material-ui/core"
 import { Headline, CodeHighlighter, PropsHighlighter, SectionBox } from "../../components"
-import { SwiperImage } from "@watheia/front.molecules"
+import SwiperImage from "@watheia/molecules.swiper-image"
 
 const importCodeString = `
-import { SwiperImage } from 'components/molecules';
-// or
-import SwiperImage from 'components/molecules/SwiperImage';
+import SwiperImage from "@watheia/molecules.swiper-image"
 `
 
 const dataProperties = [
@@ -40,8 +38,8 @@ const dataProperties = [
 const exampleCode = `
 import React from 'react';
 import { Box } from '@material-ui/core';
-import { SwiperImage } from 'components/molecules';
-import 'swiper/css/swiper.min.css';
+import SwiperImage from "@watheia/molecules.swiper-image"
+import 'swiper/swiper.min.css';
 
 export default function Example() {
   return (
