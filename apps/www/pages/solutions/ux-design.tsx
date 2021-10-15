@@ -1,7 +1,7 @@
-import "./digital-design.module.css"
+import "./ux-design.module.css"
 
 /* eslint-disable-next-line */
-export interface DigitalDesignProps {}
+export interface DigitalDesignProps { }
 
 export function DigitalDesign(props: DigitalDesignProps) {
   return (
